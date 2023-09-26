@@ -45,7 +45,7 @@
 
 **ELITR English dev set**
 
-Correct responses depending on the type of question (What, Who, When, How-Many) - Overall the LLM (gpt3.5-16k) answered correctly to 63,12% of questions
+Correct responses depending on the type of question (What, Who, When, How-Many) - Overall the LLM (gpt3.5-16k) answered correctly to 63,12% of questions on ELITR dev set
 
 
 |        | WHAT(correct) | WHAT(all) | WHO(correct) | WHO(all) | WHEN(correct) | WHEN(all) | HOW MANY(correct) | HOW MANY (all) | ALL (correct) |
@@ -82,3 +82,31 @@ Correct responses depending on the position of the answer in the meeting transcr
 | dev010 | 2          | 7      | 2          | 3      | 3          | 4      | 0          | 2      |
 | total  | 29         | 44     | 17         | 29     | 24         | 32     | 19         | 36     |
 | stats  | 65,91 %  |        | 58,62 %  |        | 75,00 %  |        | 52,78 %  |        |
+
+
+
+**ELITR English test set**
+
+**UTTER English data set**
+
+Correct responses depending on the type of question (What, Who, When) - Overall the LLM (gpt3.5-16k) answered correctly to 60,98% of questions on UTTER meetings dataset
+
+|       | WHAT(correct) | WHAT(all) | WHO(correct) | WHO(all) | WHEN(correct) | WHEN(all) | ALL (correct) |
+|-------|---------------|-----------|--------------|----------|---------------|-----------|---------------|
+| #1    | 4             | 6         | 3            | 6        | 1             | 3         |               |
+| #2    | 9             | 9         | 3            | 3        | 3             | 3         |               |
+| #3    | 3             | 5         | 1            | 5        | 4             | 5         |               |
+| #4    | 4             | 7         | 3            | 4        | 2             | 4         |               |
+| #5    | 6             | 7         | 2            | 4        | 1             | 4         |               |
+| #6    | 7             | 8         | 4            | 5        | 1             | 2         |               |
+| #7    | 3             | 8         | 3            | 4        | 1             | 3         |               |
+| #8    | 6             | 7         | 0            | 4        | 1             | 3         |               |
+| #9    | 3             | 6         | 5            | 5        | 3             | 4         |               |
+| #10   | 3             | 5         | 4            | 6        | 0             | 4         |               |
+| #11   | 3             | 6         | 1            | 4        | 3             | 5         |               |
+| total | 51            | 74        | 29           | 50       | 20            | 40        |               |
+| stats | 68,92 %     |           | 58,00 %    |          | 50,00 %     |           | 60,98 %     |
+
+
+
+
