@@ -1,4 +1,4 @@
-# UTTER WP2 - MS9 - Meeting Data - June-Dec 2023
+# UTTER - MS8 (evaluation of MrMeeting) and MS9 (1st release of meeting Data) - June-Dec 2023 
 
 # Context
 
