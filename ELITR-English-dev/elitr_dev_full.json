@@ -1,0 +1,1320 @@
+{
+  "splits" : [
+    {
+      "id" : "meeting_en_dev_001",
+      "type" : "dev",
+      "questions" : [
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "S",
+          "user_q" : " Who were the participants of the meeting ?",
+          "groundtruth_a" : "PERSON3, PERSON6, PERSON4, PERSON10, and PERSON5",
+          "agent_a" : "The participants of the meeting included PERSON3, PERSON6, PERSON4, PERSON10, and PERSON5."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " What was the purpose of the meeting ?",
+          "groundtruth_a" : "Discussion on the inclusion of different corpora in a shared task data (for summarization)",
+          "agent_a" : "The purpose of the meeting was to discuss and make decisions regarding the inclusion of different corpora in a shared task for summarization."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " What is the organization whose data inclusion was mainly discussed ?",
+          "groundtruth_a" : "[ORGANIZATION1]",
+          "agent_a" : "The organization whose data inclusion was mainly discussed is [ORGANIZATION1]."
+        },
+        {
+          "id" : "1",
+          "type" : "howmany",
+          "loc" : "M",
+          "user_q" : "How many subsets will there be in the shared task data ?",
+          "groundtruth_a" : "There will be three subsets in the shared task data. These subsets include the original corpus, [ORGANIZATION1] corpus, and [ORGANIZATION2] and [PROJECT1] data.",
+          "agent_a" : "There will be three subsets in the shared task data. These subsets include the original corpus, [ORGANIZATION1] corpus, and [ORGANIZATION2] and [PROJECT1] data."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "E",
+          "user_q" : " Who is the contact person if their are audio diarization needs ?",
+          "groundtruth_a" : "[PERSON7]",
+          "agent_a" : "The contact person for audio diarization needs is [PERSON5]."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "E",
+          "user_q" : " Who is in charge of preparing the corpus ?",
+          "groundtruth_a" : "[PERSON6]",
+          "agent_a" : "[PERSON6] is in charge of preparing the corpus for the shared task."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "E",
+          "user_q" : " What should [PERSON3] do next ?",
+          "groundtruth_a" : "[PERSON3] will will continue annotate data with annotators",
+          "agent_a" : "[PERSON3] should continue annotating the data with their annotators and work on preparing the corpus for the shared task. Additionally, they should discuss the data format and structure with [PERSON6] to ensure a smooth collaboration."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "B",
+          "user_q" : " Who are the two persons you think are in the same team and explain why ?",
+          "groundtruth_a" : "[PERSON5] and [PERSON10]",
+          "agent_a" : "Based on the conversation, it appears that [PERSON6] and [PERSON3] are likely in the same team. They discuss and collaborate on various tasks related to the shared task, such as downloading and organizing the data, aligning transcripts and minutes, and making decisions about data inclusion. Their close collaboration and shared understanding of the task indicate that they are likely working together towards a common goal."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " Why are [PERSON5] and [PERSON10] in the same team ?",
+          "groundtruth_a" : "Because it was mentioned at the beginning of the transcript that they could gather in the same office for the present meeting",
+          "agent_a" : "[PERSON5] and [PERSON10] are likely in the same team because they collaborate closely on the discussion of data inclusion and the structure of the shared task. They have similar views on the importance of diverse corpora and express mutual agreement on various decisions. Their shared understanding and alignment in their approach indicate that they are working together as a team towards the successful completion of the task."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " What are the two target languages for the shared task ?",
+          "groundtruth_a" : "English and Czech",
+          "agent_a" : "The two target languages for the shared task are English and Czech."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " What was decided for [ORGANIZATION1] data ?",
+          "groundtruth_a" : "include [ORGANIZATION1] data as a separate track in the shared task",
+          "agent_a" : "It was decided to include [ORGANIZATION1] data as a separate track in the shared task. The corpus will be prepared by aligning the transcripts and minutes, and it will be provided to the participants in a restructured format. The exact details of how the corpus will be prepared and provided will be determined by [PERSON6], who is responsible for preparing the corpus."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "M",
+          "user_q" : " What is interesting in [ORGANIZATION1] data ?",
+          "groundtruth_a" : "includes different types of meetings (compared to current corpus)",
+          "agent_a" : "[ORGANIZATION1] data is interesting because it provides a large collection of diverse and real-world meeting transcripts. These transcripts capture spontaneous speech and dialogues, making them a valuable resource for training and evaluating summarization systems. However, the summaries provided in the minutes of [ORGANIZATION1] sessions may not be as useful for summarization purposes. Nonetheless, including [ORGANIZATION1] data in the shared task would offer a contrasting dataset and allow participants to explore the challenges of summarizing different types of meetings."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "S",
+          "user_q" : " Who was chairing the discussion and recap what was said from time to time ?",
+          "groundtruth_a" : "[PERSON10] was clearly doing this",
+          "agent_a" : "The transcript does not provide explicit information about who was chairing the discussion or who was responsible for recapping what was said from time to time. The focus of the conversation was primarily on discussing the inclusion of different corpora in the shared task, as well as organizing and preparing the data."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "M",
+          "user_q" : " Who should try sending an e-mail to [PERSON8] who is on vacation ?",
+          "groundtruth_a" : "[PERSON3]",
+          "agent_a" : "[PERSON3] mentioned that [PERSON8] is on vacation and suggested trying to send an email to [PERSON8] later."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "M",
+          "user_q" : " Who had connection problems during the call ?",
+          "groundtruth_a" : "[PERSON5] (left and went back from time to time; [PERSON3] froze from time to time",
+          "agent_a" : "During the call, [PERSON3] experienced connection problems and had difficulties sharing their screen."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " What are the two discussed options to associate minutes to the transcripts of [ORGANIZATION1] corpus ?",
+          "groundtruth_a" : "(1) Manually search on the data repo for the minutes corresponding to each transcript and (2)  Have some people creating the minutes from the existing transcripts",
+          "agent_a" : "The two discussed options to associate minutes to the transcripts of [ORGANIZATION1] corpus were as follows:\n\n1. Manually search for the minutes corresponding to each transcript by using the name of the chapter or session as a search parameter. This would involve finding and linking the minutes to the respective transcripts.\n\n2. Develop a script or program to automate the process of associating the minutes with the transcripts. This would involve parsing the transcripts and matching them with the available minutes using specific criteria or patterns.\n\nThese were the two options discussed to efficiently associate the minutes with the transcripts of [ORGANIZATION1] corpus."
+        },
+        {
+          "id" : "1",
+          "type" : "when",
+          "loc" : "M",
+          "user_q" : " When will [PERSON8] come back ?",
+          "groundtruth_a" : "next week (on vacation this week)",
+          "agent_a" : "There was no specific information provided about when [PERSON8] will come back from vacation during the conversation."
+        }
+      ]
+    },
+    {
+      "id" : "meeting_en_dev_002",
+      "type" : "dev",
+      "questions" : [
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "S",
+          "user_q" : " Who were the participants of the meeting ?",
+          "groundtruth_a" : "PERSON14, PERSON10, PERSON5, PERSON9, PERSON1, PERSON11",
+          "agent_a" : "The participants of the meeting were PERSON14, PERSON10, PERSON5, PERSON9, PERSON1, PERSON11, and PERSON3 (mentioned but not expected to join)."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " What was the main purpose of this meeting ?",
+          "groundtruth_a" : "discuss and finalize the technical setup for a demo",
+          "agent_a" : "The main purpose of the meeting was to discuss and finalize the technical setup for a demo of the speech-to-text and translation system. They also discussed the selection of a video to be used for the demo and planned the schedule for the project officer's involvement."
+        },
+        {
+          "id" : "1",
+          "type" : "howmany",
+          "loc" : "S",
+          "user_q" : " how many scenarios were discussed?",
+          "groundtruth_a" : "3 (plans A, B and C)",
+          "agent_a" : "Based on the transcript, three scenarios were discussed during the meeting. These were referred to as Plan A, Plan B, and Plan C. Plan A involved rebroadcasting a video within the presentation platform, Plan B involved using YouTube subtitles and instructions within the presentation platform, and Plan C involved streaming a video on a public server and providing inputs to AB client for transcription and translation."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "M",
+          "user_q" : " Which scenario was chosen eventually ?",
+          "groundtruth_a" : "Plan C",
+          "agent_a" : "Based on the transcript, Plan A was crossed out as it was deemed less feasible. Plan B, involving the use of YouTube subtitles and instructions within the presentation platform, was considered the fallback solution and was expected to be fairly easy to set up. Plan C, which involved streaming a video on a public server and providing inputs to AB client for transcription and translation, was considered the best solution. However, further testing and coordination with [PERSON12] were required to finalize the details and ensure access to the public server."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "B",
+          "user_q" : " Who (which person) is the main target for this demo ? ",
+          "groundtruth_a" : "the project officer",
+          "agent_a" : "The main target for the demo was the project officer, who was referred to in the meeting transcript. The participants discussed how to present the system's capabilities to the project officer, showcasing the transcription and translation of speech in real-time."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "S",
+          "user_q" : " Who will provide the server for the demo ?",
+          "groundtruth_a" : "[ORGANIZATION5]",
+          "agent_a" : "In the meeting transcript, it was mentioned that [PERSON12] would be responsible for providing the server for the demo. They were expected to have experience with the servers used and would know what to request from the network administrators to ensure access and functionality."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "M",
+          "user_q" : " Who presented plan A ?",
+          "groundtruth_a" : "[PERSON1] ",
+          "agent_a" : "In the meeting transcript, it is not explicitly mentioned who presented Plan A. However, based on the conversation, it can be inferred that various participants discussed the details and limitations of Plan A before ultimately deciding to cross it out as a less feasible option."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "M",
+          "user_q" : " Who presented plan B ?",
+          "groundtruth_a" : "[PERSON14]",
+          "agent_a" : "In the meeting transcript, it is not explicitly mentioned who presented Plan B. However, based on the conversation, it can be inferred that the discussion around Plan B was initiated by [PERSON14]. They proposed using YouTube subtitles and instructions within the presentation platform as a fallback solution for the demo. The other participants then joined in the discussion and provided input on how to implement this plan effectively."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "S",
+          "user_q" : " Who presented plan C ?",
+          "groundtruth_a" : "[PERSON9] ",
+          "agent_a" : "In the meeting transcript, it is not explicitly mentioned who presented Plan C. However, based on the conversation, it can be inferred that the discussion around Plan C was primarily led by [PERSON9]. They outlined the idea of streaming a video on a public server and providing inputs to AB client for transcription and translation. [PERSON1] also contributed to the discussion by suggesting the necessary technical setup for Plan C."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "M",
+          "user_q" : " Who will take care of the selection of videos for the demonstration ?",
+          "groundtruth_a" : "[PERSON5] and [PERSON11] should select the video",
+          "agent_a" : "In the meeting transcript, it is mentioned that [PERSON5] and [PERSON11] were responsible for selecting the videos for the demonstration. They discussed the possibility of using German TEDx talks and other videos from a playlist they had created. Their task was to identify suitable videos and test them on the existing setup to assess their performance for transcription and translation."
+        },
+        {
+          "id" : "1",
+          "type" : "when",
+          "loc" : "E",
+          "user_q" : " When are the next demo tests planned ?",
+          "groundtruth_a" : "next demo test session is scheduled for the following day",
+          "agent_a" : "In the meeting transcript, it is mentioned that the next demo test session is scheduled for the following day at half-past 10 in the morning. The participants agreed to meet again to continue testing and fine-tuning the technical aspects of the setup."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "M",
+          "user_q" : " Why plan B was abandoned ?",
+          "groundtruth_a" : "Might face copyright issues",
+          "agent_a" : "In the meeting transcript, Plan B was not explicitly abandoned or rejected. It was discussed as a fallback solution involving the use of YouTube subtitles and instructions within the presentation platform. However, Plan C, which involved streaming a video on a public server and providing inputs to AB client for transcription and translation, was considered the preferred option. This decision was likely based on the technical feasibility and desired functionality of Plan C compared to Plan B."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "M",
+          "user_q" : " Why plan B was not considered as the first plan ?",
+          "groundtruth_a" : "Might face copyright issues",
+          "agent_a" : "In the meeting transcript, it was mentioned that Plan B, which involved using YouTube subtitles and instructions within the presentation platform, was discussed as a fallback solution rather than the first plan. The reason for this could be attributed to the technical limitations or complexities associated with implementing Plan B. It is possible that Plan C, which involved streaming a video on a public server and providing inputs to AB client, was seen as a more efficient or reliable option for the specific requirements of the demo."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " Why is (PERSON14) nervous ?",
+          "groundtruth_a" : "pressure of showcasing the demo to the project officer  and struggling with the setup",
+          "agent_a" : "In the meeting transcript, it is mentioned that PERSON14 is feeling anxious about the demo. This could be due to various reasons, such as concerns about the technical setup, the reliability of the translation system, or the quality of the transcription and translation. The pressure of showcasing the system's performance to the project officer and wanting to demonstrate the best possible results could contribute to their nervousness."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "E",
+          "user_q" : " What is the preferred videoconferencing software for the meeting tomorrow ?",
+          "groundtruth_a" : "Zoom",
+          "agent_a" : "In the meeting transcript, it is not explicitly mentioned which videoconferencing software will be used for the meeting tomorrow. However, earlier in the conversation, Zoom was mentioned as a preferred option. PERSON10 also mentioned that they would reach out to PERSON7 to book a Zoom meeting slot. Therefore, it can be inferred that Zoom is the preferred videoconferencing software for the meeting."
+        }
+      ]
+    },
+    {
+      "id" : "meeting_en_dev_003",
+      "type" : "dev",
+      "questions" : [
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "S",
+          "user_q" : " Who were the participants of the meeting ? ",
+          "groundtruth_a" : "[PERSON12], [PERSON11], [PERSON3], [PERSON4], [PERSON1]",
+          "agent_a" : "The participants of the meeting were:\n- PERSON12\n- PERSON11\n- PERSON3\n- PERSON4\n- PERSON1"
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " What was the purpose of the meeting ?",
+          "groundtruth_a" : "it was a work update (not particular hot topic addressed)",
+          "agent_a" : "The purpose of the meeting was to discuss various topics, including the progress on a book project, the submission of a paper to a conference, and the allocation of funds for equipment. They also discussed the possibility of attending an official event."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " At which conference was a paper accepted?",
+          "groundtruth_a" : "A paper was accepted to [PROJECT2]",
+          "agent_a" : "The conference at which a paper was accepted was not explicitly mentioned in the meeting transcript."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " What is the location of the conference ?",
+          "groundtruth_a" : "it is in [LOCATION2]",
+          "agent_a" : "The specific location of the conference was not mentioned in the meeting transcript."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "B",
+          "user_q" : " Who is going to register to the conference ?",
+          "groundtruth_a" : "(PERSON3)",
+          "agent_a" : "It was mentioned in the meeting that someone from the group would need to register for the conference. However, it was not specified which specific individual would be responsible for the registration."
+        },
+        {
+          "id" : "1",
+          "type" : "when",
+          "loc" : "B",
+          "user_q" : " When will be the meeting to talk about paper reviews ?",
+          "groundtruth_a" : "same day, after lunch",
+          "agent_a" : "In the meeting, it was discussed that a meeting would be scheduled to discuss the paper reviews. The exact date and time of the meeting were not decided upon during the conversation."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "B",
+          "user_q" : " Who is a possible new contributor to the book ?",
+          "groundtruth_a" : "[PERSON1]",
+          "agent_a" : "In the meeting, it was suggested that [PERSON1] could be a possible new contributor to the book. They were invited to join the project and potentially write sections for the book."
+        },
+        {
+          "id" : "1",
+          "type" : "howmany",
+          "loc" : "B",
+          "user_q" : " How many conference papers were accepted so far ?",
+          "groundtruth_a" : "3",
+          "agent_a" : "Based on the conversation in the meeting, it was mentioned that three conference papers had been accepted so far. These papers were categorized as type D, meaning they were accepted at big conferences or indexed by [PROJECT6] or [OTHER6]."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "M",
+          "user_q" : " Who offered to read other people's parts/chapters?",
+          "groundtruth_a" : "[PERSON11] ",
+          "agent_a" : "In the meeting, it was not explicitly mentioned which participant offered to read other people's parts or chapters of the book. However, there was a discussion about sharing the section on getting syntax from attention matrices, and it was suggested that [PERSON1] could work with [PERSON12] on that section."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "E",
+          "user_q" : " What is planned in [LOCATION7] ?",
+          "groundtruth_a" : "[PROJECT1] conference",
+          "agent_a" : "In the meeting, there was a mention of [LOCATION7], but it was not elaborated upon or specified what exactly was planned in that location. The conversation seemed to be a casual reference without any further details provided."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "M",
+          "user_q" : " Which conference was planned in [LOCATION7] ? ",
+          "groundtruth_a" : "[PROJECT1]",
+          "agent_a" : "Based on the context of the conversation in the meeting, it appears that there was no specific conference mentioned to be planned in [LOCATION7]. The participants were discussing various conferences and events, but [LOCATION7] was not directly associated with any particular conference."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "E",
+          "user_q" : " Who has written a survey paper and is looking for a venue to publish it ?",
+          "groundtruth_a" : "[PERSON1]",
+          "agent_a" : "In the meeting, [PERSON1] mentioned that they have written a survey paper and are looking for a suitable venue to publish it. They discussed the possibility of submitting it to [PROJECT7], but also considered other options like [PROJECT3]. The decision on where to submit the survey paper was still pending at the time of the meeting."
+        },
+        {
+          "id" : "1",
+          "type" : "when",
+          "loc" : "S",
+          "user_q" : " Did this discussion occur before, during or after COVID 19 crisis ?",
+          "groundtruth_a" : "during COVID 19",
+          "agent_a" : "The discussion took place during the COVID-19 crisis. In the meeting, there were references to virtual conferences, the possibility of remote participation, and uncertainties regarding the format and physical presence of certain events. These topics align with the challenges and adjustments imposed by the ongoing pandemic."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " What is the topic of the book ?",
+          "groundtruth_a" : "NLP, parsing, neural models for NLP",
+          "agent_a" : "The exact topic of the book was not explicitly mentioned in the meeting transcript. However, based on the conversation, it can be inferred that the book is focused on the subject of attention heads and their interpretation in neural network models, particularly in the context of syntactic probing. The participants discussed different sections related to attention heads, syntax trees, and the interpretability of attention mechanisms."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " More generally what is the topic of the book ?",
+          "groundtruth_a" : "NLP, parsing, neural models for NLP",
+          "agent_a" : "More generally, the topic of the book appears to be related to the exploration and analysis of attention heads in neural network models, with a specific focus on their syntactic probing and interpretation. The book likely delves into various aspects of attention mechanisms, their role in capturing syntactic information, and their implications for understanding and interpreting neural networks."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " What is the general research domain of the book ?",
+          "groundtruth_a" : "NLP, parsing, neural models for NLP",
+          "agent_a" : "The general research domain of the book revolves around the study of attention mechanisms in neural network models. Attention mechanisms are a key component in deep learning architectures and have found applications in various fields such as natural language processing, computer vision, and machine translation. The book seems to specifically focus on the analysis and interpretation of attention heads within the context of syntactic probing, indicating a research interest in understanding how attention mechanisms capture and represent syntactic information."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "E",
+          "user_q" : " What's funny about the end of the meeting ?",
+          "groundtruth_a" : "Was about attending an official event;  was said that if someone didn't want to let them in, they could mention that it is a deal with [PERSON7] and [PERSON10]",
+          "agent_a" : "At the end of the meeting, there was a light-hearted discussion about attending an official event. It was mentioned that if someone didn't want to let them in, they could mention that it was a deal with [PERSON7] and [PERSON10]. This humorous remark added a playful tone to the conversation, injecting a moment of levity before concluding the meeting."
+        }
+      ]
+    },
+    {
+      "id" : "meeting_en_dev_004",
+      "type" : "dev",
+      "questions" : [
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "S",
+          "user_q" : " Who was there ?",
+          "groundtruth_a" : "[PERSON14], [PERSON6], [PERSON17], [PERSON10], [PERSON5]",
+          "agent_a" : "The participants in the meeting were PERSON6, PERSON17, PERSON5, and PERSON14."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "E",
+          "user_q" : " Who has finished his part of the book ?",
+          "groundtruth_a" : "",
+          "agent_a" : "Based on the conversation in the transcript, it is mentioned that PERSON6 and PERSON17 have finished their parts of the book."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "B",
+          "user_q" : " Who will write an introduction ?",
+          "groundtruth_a" : "(PERSON6)",
+          "agent_a" : "It is not explicitly mentioned in the transcript who will write the introduction of the book. However, it can be inferred that the responsibility for writing the introduction may fall to either PERSON6 or PERSON17, as they discuss the structure and content of the book in the meeting."
+        },
+        {
+          "id" : "1",
+          "type" : "when",
+          "loc" : "E",
+          "user_q" : " When will be the next meeting ?",
+          "groundtruth_a" : "July 21st",
+          "agent_a" : "The next meeting is scheduled for July 21st, as mentioned in the conversation."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "E",
+          "user_q" : " What's remaining to be written by (PERSON17) ?",
+          "groundtruth_a" : "",
+          "agent_a" : "According to the conversation in the transcript, PERSON17 mentions that they have finished most of their chapter, but there are still some missing parts, such as the discussion on clustering and unsupervised methods. They also mention that they need to rewrite and add some content to the chapter."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " What was the purpose of the meeting ?",
+          "groundtruth_a" : "Discuss the progress of the book and to provide updates on the chapters that have been written",
+          "agent_a" : "The purpose of the meeting was to discuss the progress of the book and to provide updates on the chapters that have been written. The participants shared their progress, discussed the content of each chapter, and talked about any missing parts or revisions that need to be made. They also discussed the organization and structure of the book and addressed questions about how to present the authors' work in relation to other papers."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " Which general decision was taken about the writing style of the book ?",
+          "groundtruth_a" : "In the book it's better to say 'we' when referring to their own work",
+          "agent_a" : "In the transcript, there is a discussion about the writing style of the book, specifically regarding how the authors should refer to their own work and the work of others. It is decided that the authors should use \"we\" when referring to their own work, and that they should explicitly mention their own contributions and viewpoints in contrast to other papers. This decision aims to provide transparency to the reader about the authors' perspectives and potential biases."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " Make a list of what remains to be written for the book ?",
+          "groundtruth_a" : "Intro, Probing, Unsupervised Methods, Conclusion",
+          "agent_a" : "Based on the conversation in the transcript, here is a list of what remains to be written for the book:\n\n1. Introduction: It is not explicitly mentioned in the transcript, but the introduction of the book is likely still to be written.\n\n2. Chapter on Probing and Unsupervised Methods: PERSON17 mentioned that there are still some missing parts in this chapter, including discussions on clustering and unsupervised methods. They also mentioned the need to rewrite and add some content.\n\n3. Chapter on Stories: PERSON14 mentioned that this chapter is almost finished, but some parts still need to be rewritten or added.\n\n4. Conclusion: It is mentioned in the transcript that the conclusion section needs to be written.\n\nIt is important to note that these are just the specific sections discussed in the transcript, and there may be other sections or chapters not mentioned that also need to be written."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "E",
+          "user_q" : " Who will take care of the list of figures ?",
+          "groundtruth_a" : "[PERSON6]",
+          "agent_a" : "In the conversation, it is not explicitly mentioned who will take care of the list of figures. However, it can be assumed that one of the participants, possibly PERSON6, will be responsible for creating and maintaining the list of figures for the book."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "M",
+          "user_q" : " Who explained to PERSON17 what he wanted to say in his comments ?",
+          "groundtruth_a" : "[PERSON5] ",
+          "agent_a" : "In the conversation, it is not mentioned who specifically explained to PERSON17 what he wanted to say in his comments. However, it can be inferred that one of the participants, possibly PERSON6 or PERSON14, took the responsibility to explain and clarify the intended meaning behind the comments made by PERSON17."
+        },
+        {
+          "id" : "1",
+          "type" : "howmany",
+          "loc" : "M",
+          "user_q" : " How long is the tutorial (PERSON14) wants to watch ?",
+          "groundtruth_a" : "3h approximately",
+          "agent_a" : "In the conversation, it is mentioned that the tutorial PERSON14 wants to watch is almost 3 hours long, specifically 2 hours and 45 minutes."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "M",
+          "user_q" : " What was the topic of the chapter where people already made comments and some of them has to be explained to the writer of the chapter ?",
+          "groundtruth_a" : "interpretation of neural networks",
+          "agent_a" : "In the conversation, it is not explicitly mentioned which specific chapter had comments that needed to be explained to the writer. However, based on the context of the conversation, it can be inferred that the chapter in question is the one written by PERSON17, as they mention that there comments were made on their chapter and some of them needed clarification."
+        },
+        {
+          "id" : "1",
+          "type" : "howmany",
+          "loc" : "E",
+          "user_q" : " How long is the book at the moment ?",
+          "groundtruth_a" : "150 pages",
+          "agent_a" : "The exact length of the book at the moment is not mentioned in the conversation transcript. Therefore, it is unclear how many pages or words the book currently consists of."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "B",
+          "user_q" : " Who is in charge of writing something about gender bias ?",
+          "groundtruth_a" : "[PERSON17]",
+          "agent_a" : "Based on the conversation in the transcript, it is not explicitly mentioned who is in charge of writing something about gender bias. However, it can be inferred that it might be the responsibility of PERSON17, as they mention having a section on gender bias in their chapter and may need to further develop or revise it."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "E",
+          "user_q" : " Based on the conversation, what is your guess on the title of the book ?",
+          "groundtruth_a" : "",
+          "agent_a" : "Based on the conversation, it is not explicitly mentioned what the title of the book will be. However, some possible suggestions for the title based on the discussed content could be \"Interpretability in Neural Models for Natural Language Processing\" or \"Exploring Neural Models for Natural Language Processing: Interpretability and Applications\". Ultimately, the final decision on the book title is up to the authors."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "E",
+          "user_q" : " Who is not available next week ?",
+          "groundtruth_a" : "[PERSON14] ",
+          "agent_a" : "According to the transcript, [PERSON14] mentioned that they will not be available next week."
+        }
+      ]
+    },
+    {
+      "id" : "meeting_en_dev_005",
+      "type" : "dev",
+      "questions" : [
+        {
+          "id" : "1",
+          "type" : "when",
+          "loc" : "B",
+          "user_q" : " When will [PERSON9] give a presentation ?",
+          "groundtruth_a" : "17th February",
+          "agent_a" : "The exact date of [PERSON9]'s presentation was not mentioned in the meeting transcript. However, it was mentioned that [PERSON9] was asked to give a presentation on [PROJECT2] at the Monday seminar, and the date mentioned was around February 17th, which is in a little over two weeks from the meeting."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "S",
+          "user_q" : " Who attended the meeting ?",
+          "groundtruth_a" : "[PERSON14], [PERSON17], [PERSON11], [PERSON2], [PERSON7]",
+          "agent_a" : "The attendees of the meeting were:\n- PERSON14\n- PERSON11\n- PERSON8\n- PERSON2\n- PERSON7\n- PERSON16\n- PERSON17\n- [PERSON5]\nThere was also a mention of [PERSON6], [PERSON1], [PERSON9], and [PERSON13], but it's unclear whether they were present at the meeting or not."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " What is the main event targeted to test the demo system ?",
+          "groundtruth_a" : "The Students Firm Fair",
+          "agent_a" : "The main event targeted to test the demo system is the Students Firm Fair, which will take place from March 18th to 20th. This event was mentioned as an important opportunity to showcase and evaluate the system's performance in a noisy environment. The fair involves students presenting their companies, and the system will be used to transcribe their presentations. Additionally, there was a mention of the need for profanity filtering during this event."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " What is challenging about this event ?",
+          "groundtruth_a" : "Noisy Environment",
+          "agent_a" : "The Students Firm Fair presents several challenges for the demo system. These challenges include:\n\n1. Noisy Environment: The fair takes place in a large hall with many stands and activities, which can create a challenging acoustic environment. Background noise and crowd conversations can impact the accuracy of the speech recognition system.\n\n2. Real-time Transcription: The system is expected to provide real-time transcription of the student presentations. This requires efficient processing and low latency to keep up with the speech input.\n\n3. Non-native English Speakers: Many of the student presenters may be non-native English speakers. This can introduce additional challenges in accurately transcribing their speech, as accents and language variations may differ from what the ASR system is trained on.\n\n4. Profanity Filtering: Given the nature of the event, where high school students are presenting their companies, it is crucial to filter out any profanity or inappropriate language from the transcriptions. Developing an effective profanity filtering system is important to ensure a suitable and safe experience for the participants.\n\nOverall, the Students Firm Fair provides a real-world testing ground for the demo system, allowing it to be evaluated in a challenging, high-noise environment with non-native English speakers, while also highlighting the need for profanity filtering."
+        },
+        {
+          "id" : "1",
+          "type" : "howmany",
+          "loc" : "B",
+          "user_q" : " How many participants are expected to the students firm fair ?",
+          "groundtruth_a" : "400 approximately",
+          "agent_a" : "The number of participants expected at the Students Firm Fair was not mentioned in the meeting transcript. However, it was mentioned that there were around 400 high school students who would be presenting their companies at the fair."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " Why profanity filtering is particularly needed for this event ?",
+          "groundtruth_a" : "high school students will participate, so attendees are likely to be younger individuals and it is it is important to ensure a suitable and safe environment for them",
+          "agent_a" : "Profanity filtering is particularly needed for the Students Firm Fair due to the nature of the event and the audience involved. The fair involves high school students presenting their companies, which means that the participants and attendees are likely to be younger individuals. Given the age group, it is important to ensure a suitable and safe environment for the students.\n\nProfanity filtering helps to prevent the display of inappropriate or offensive language in the transcriptions or subtitles generated by the system. By implementing a profanity filter, the system can avoid displaying any profane or offensive words, ensuring that the content remains appropriate for the young audience and maintains a professional and respectful environment at the fair.\n\nAdditionally, as mentioned in the meeting, there were previous instances where the subtitles were displayed and shared on social networks, resulting in laughter and potential embarrassment for the participants. Implementing profanity filtering helps to mitigate such risks and maintain a positive and supportive atmosphere during the fair."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " Did the system already output some toxic content in the past ?",
+          "groundtruth_a" : "yes, there was a reference to an incident where an incorrect translation of a word led to a profane word being displayed in the subtitle",
+          "agent_a" : "The meeting transcript does not explicitly mention whether the system had previously output toxic content. However, there was a reference to an incident where an incorrect translation of a word led to a profane word being displayed in the subtitles during a previous talk by [PERSON4]. This incident highlighted the need for profanity filtering and the importance of preventing any inappropriate or offensive language from being generated by the system, especially in events involving young participants like the Students Firm Fair."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " Which profane word was uttered ?",
+          "groundtruth_a" : "scrotum",
+          "agent_a" : "In the meeting transcript, it was mentioned that during a previous talk by [PERSON4], there was an incident where the word \"šoupátko\" (which means \"slider\" in Czech) was mistranslated and displayed as a profane word in the subtitles. The specific profane word that resulted from the translation error was not mentioned in the transcript. However, it was referred to as an example of a word that should not be displayed in the subtitles during the Students Firm Fair, as it was inappropriate for the young audience attending the event."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "E",
+          "user_q" : " Who was giving a presentation when the subtitling system broke bad ?",
+          "groundtruth_a" : "",
+          "agent_a" : "In the meeting transcript, it was mentioned that the subtitling system broke and displayed a profane word during a talk given by [PERSON4]. [PERSON4] is the individual who was giving the presentation when the subtitling system encountered the translation error and displayed the inappropriate word in the subtitles."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "M",
+          "user_q" : " What kind of segmentation (PERSON17) is talking about ?",
+          "groundtruth_a" : "audio segmentation of the recordings for automatic subtitling",
+          "agent_a" : "In the meeting transcript, [PERSON17] mentions two types of segmentation: time-based segmentation and word-based segmentation. These segmentation methods are used to determine the boundaries for calculating delay and estimate the expected time for each word in the context of the evaluation framework. \n\nTime-based segmentation involves dividing the audio into segments based on time intervals. For example, a window of four to eight seconds may be used, and the most probable pause between words is identified within that window.\n\nWord-based segmentation, on the other hand, involves segmenting the audio based on the pauses between words. The goal is to identify and separate individual words in order to analyze and measure the delay between them.\n\nBoth types of segmentation help in assessing and evaluating the performance of the system in terms of timing and delays."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "S",
+          "user_q" : " Who is attending remotely ?",
+          "groundtruth_a" : "[PERSON2], [PERSON7]   ([PERSON8] may as well but it is unclear)",
+          "agent_a" : "In the meeting transcript, it is mentioned that [PERSON8] is attending remotely. Additionally, there is reference to [PERSON5] attending remotely as well. However, it is unclear whether there are any other participants attending remotely, as they are not specifically mentioned in the transcript."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "E",
+          "user_q" : " Who is the (PERSON2) is waiting for to move forward with her segmentation work?",
+          "groundtruth_a" : "[PERSON13]",
+          "agent_a" : "In the meeting transcript, it is mentioned that [PERSON2] is waiting for [PERSON13] to move forward with her segmentation work. [PERSON2] mentions that they need feedback from [PERSON13] on how the segmentation works with [PERSON13]'s segmenter. It is implied that [PERSON13] has knowledge or expertise in the segmentation process, and [PERSON2] is relying on their input before proceeding further."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "E",
+          "user_q" : " Why is speaker diarization not absolutely needed for some talks ?",
+          "groundtruth_a" : "because they are mono-speaker (one single speaker is talking)",
+          "agent_a" : "Speaker diarization, the process of determining who is speaking when in an audio recording, is not absolutely needed for some talks when they involve only one speaker. In the meeting transcript, it was mentioned that if the talks at the event or in a specific context involve only one speaker, then speaker diarization is not necessary.\n\nSpeaker diarization becomes more crucial when multiple speakers are involved, as it helps separate and identify each speaker's segments within the audio recording. However, in cases where there is a single speaker throughout the talk, such as a monologue or a presentation by a single individual, speaker diarization is not essential as there are no overlapping speech segments to distinguish.\n\nTherefore, for talks with a single speaker, the need for speaker diarization is reduced or eliminated, and the focus can be on other aspects of the transcription or analysis process."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "E",
+          "user_q" : " Where was [PERSON11] ?",
+          "groundtruth_a" : "",
+          "agent_a" : "In the meeting transcript, it is not explicitly mentioned where [PERSON11] was during the meeting. However, [PERSON11] is mentioned as one of the participants who was expected to attend the meeting. It is possible that [PERSON11] may have been present remotely or had connectivity issues preventing them from joining the call."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "E",
+          "user_q" : " Who is a new comer ? ",
+          "groundtruth_a" : "[PERSON8]",
+          "agent_a" : "In the meeting transcript, there is a mention of a new comer who is [PERSON8]. [PERSON8] had previously worked on the project last June and has now joined remotely from [LOCATION3]."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "E",
+          "user_q" : " Which person was mentioned several times as needed but not responsive?",
+          "groundtruth_a" : "[PERSON13]",
+          "agent_a" : "In the meeting transcript, [PERSON13] is mentioned several times as someone who was needed for certain tasks but was not responsive. There were mentions of [PERSON13] not responding regarding the setup of a virtual machine for the paraphrasing server and not providing feedback on how the segmentation worked with their segmenter. [PERSON13]'s lack of responsiveness caused some delays and hindered progress in those specific areas."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "E",
+          "user_q" : " What system mentioned could drastically speed up automatic transcription ?",
+          "groundtruth_a" : "FastSpeech",
+          "agent_a" : "In the meeting transcript, it is mentioned that a system called \"FastSpeech\" was brought up. The system is described as being three hundred times faster for automatic speech recognition (ASR) and has the potential to eliminate the need for sending audio and experiencing delays. FastSpeech is said to be robust and greatly reduces word error rates. However, it is unclear whether the system is already available as code and integrated into the project. Further discussion and investigation may be needed to determine the feasibility of implementing FastSpeech for speeding up automatic transcription."
+        },
+        {
+          "id" : "1",
+          "type" : "when",
+          "loc" : "E",
+          "user_q" : " Was next meeting date set ?",
+          "groundtruth_a" : "no (there will be a doodle)",
+          "agent_a" : "In the meeting transcript, there is a mention of potentially changing the day of the next meeting from Thursday to Friday. However, it was also suggested to conduct a poll using Doodle to determine the most suitable day for the next meeting. Therefore, it is unclear from the transcript whether a specific date was set for the next meeting."
+        }
+      ]
+    },
+    {
+      "id" : "meeting_en_dev_006",
+      "type" : "dev",
+      "questions" : [
+        {
+          "id" : "1",
+          "type" : "when",
+          "loc" : "B",
+          "user_q" : " When should the interface to upload files be ready ?",
+          "groundtruth_a" : "In March",
+          "agent_a" : "According to the transcript, the goal is to have the interface to upload files ready by March. This timeline was mentioned during the meeting as a target for allowing the organization to start uploading their files. However, it's important to note that the progress and availability of the interface may vary based on the development process and any unforeseen circumstances."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "B",
+          "user_q" : " Who will use this uploading interface massively ? ?",
+          "groundtruth_a" : "[ORGANIZATION2]",
+          "agent_a" : "According to the transcript, the organization mentioned in the meeting as the main user of the uploading interface is [ORGANIZATION2]. They are expected to have a large number of source files that need to be uploaded and processed. The specific details of the organization were not provided in the transcript."
+        },
+        {
+          "id" : "1",
+          "type" : "when",
+          "loc" : "S",
+          "user_q" : " Based on the transcript, can you infer when (which month) does the meeting take place ?",
+          "groundtruth_a" : "February (several references to March as being 'next month')",
+          "agent_a" : "Based on the conversation in the transcript, it is not explicitly mentioned which month the meeting took place in. However, there are references to upcoming events and deadlines, such as exams and the need to have certain tasks completed by March. Without more specific information, it is not possible to infer the exact month of the meeting."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " Which important issue was raised about the data of  [ORGANIZATION2] ?",
+          "groundtruth_a" : "Confidentiality of the files: some files would be public and some others would be strictly confidential",
+          "agent_a" : "The important issue raised about the data of [ORGANIZATION2] was the confidentiality of the files. It was mentioned that some files would be public and could be shared, while others would be strictly confidential for the project and should not leave the organization. The suggestion was made to have separate views or layers in the uploading interface, with different permissions and background colors to distinguish between non-sensitive and confidential files. This was discussed as a feature request to ensure the proper handling and protection of sensitive data."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "M",
+          "user_q" : " Who are the persons to be involved in the documentation ?",
+          "groundtruth_a" : "[PERSON7] and the speaker (whose name is not annotated)",
+          "agent_a" : "According to the transcript, the person mentioned to be involved in the documentation is [PERSON7]. It was discussed that [PERSON7] would be contacted to collaborate on documenting the functionalities and requirements of the presentation web forms. [PERSON7] is identified as someone who can provide valuable input and assistance in this aspect."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "E",
+          "user_q" : " Who are the two persons involved in the documentation ?",
+          "groundtruth_a" : "",
+          "agent_a" : "Apologies for the confusion in my previous response. The two persons involved in the documentation are [PERSON7] and the speaker, who is responsible for reaching out to [PERSON7] and collaborating with them on documenting the functionalities and requirements of the presentation web forms."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " Based on the transcript, would you say this is (a) a fully offsite (b) a fully online (c) a hybrid meeting ?",
+          "groundtruth_a" : "Hybrid",
+          "agent_a" : "Based on the transcript, it appears to be a hybrid meeting. The meeting involves multiple participants who are both physically present and remotely connected. Some participants mention being on-site or in an office, while others mention being connected remotely. Therefore, it can be inferred that the meeting combines both in-person and online elements, making it a hybrid meeting."
+        },
+        {
+          "id" : "1",
+          "type" : "when",
+          "loc" : "M",
+          "user_q" : " Can we schedule a call with (PERSON7) this week ?",
+          "groundtruth_a" : "No (already busy this week)",
+          "agent_a" : "There is no information in the transcript indicating a specific schedule for a call with [PERSON7]. However, it was mentioned in the meeting that a call with [PERSON7] should be scheduled for the following week. Therefore, it would be advisable to reach out to [PERSON7] and coordinate a suitable time for a call."
+        },
+        {
+          "id" : "1",
+          "type" : "when",
+          "loc" : "M",
+          "user_q" : " We should schedule a call with (PERSON7) asap, can we do that this week ?",
+          "groundtruth_a" : "No (already busy this week)",
+          "agent_a" : "Based on the transcript, [PERSON7] mentioned that she is busy this week and suggested scheduling a call for the following week. However, if you need to schedule a call with [PERSON7] as soon as possible, it would be best to reach out to her directly to discuss availability and find a suitable time for the call."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " What is everyone's homework after the meeting ?",
+          "groundtruth_a" : "enter things they have done to the Google sheet",
+          "agent_a" : "Based on the transcript, here is a summary of the tasks or action items assigned to each person after the meeting:\n\n1. [PERSON10]: Set up a communication protocol with [PERSON1] for the regular flow of data. Start collaborating closely and ensure the data from [PERSON10] reaches [PERSON1]'s models. Set up a meeting with [PERSON1] to discuss further details and availability.\n\n2. [PERSON5]: Work on setting up the Webster Kit connection for uploading data. Contact [PERSON7] to collaborate on documentation and functional requirements for the presentation web forms. Aim to have progress on these tasks by the following week.\n\n3. [PERSON8]: Continue working on speech segmentation and training. Download and process files shared by [PERSON11] for testing. Check the light files and collaborate with [PERSON3] to finalize data preparation for ISWSLT. Also, discuss and address issues related to the text segmenter's recall for stop and period marks.\n\n4. [PERSON3]: Collaborate with [PERSON8] to finalize the data preparation for ISWSLT testing.\n\n5. [PERSON1]: Communicate with [PERSON10] regarding the regular data flow and integration of the data. Coordinate with [PERSON4] to address and fix the"
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " But which thing should everyone do ?",
+          "groundtruth_a" : "enter things they have done to the Google sheet",
+          "agent_a" : "Apologies for the confusion. Based on the transcript, here are the individual tasks assigned to each person after the meeting:\n\n1. [PERSON10]: Set up a communication protocol with [PERSON1] for the regular flow of data. Collaborate closely with [PERSON1] to ensure data from [PERSON10] reaches [PERSON1]'s models.\n\n2. [PERSON5]: Work on setting up the Webster Kit connection for uploading data. Collaborate with [PERSON7] on documentation and functional requirements for the presentation web forms.\n\n3. [PERSON8]: Continue working on speech segmentation and training. Download and process files shared by [PERSON11] for testing. Check the light files and collaborate with [PERSON3] to finalize data preparation for ISWSLT.\n\n4. [PERSON3]: Collaborate with [PERSON8] to finalize the data preparation for ISWSLT.\n\n5. [PERSON1]: Coordinate with [PERSON10] on the regular data flow and integration. Communicate with [PERSON4] to address and fix the issue regarding the [unintelligible]."
+        },
+        {
+          "id" : "1",
+          "type" : "when",
+          "loc" : "E",
+          "user_q" : " Is the slot for regular meetings set already ?",
+          "groundtruth_a" : "No (doodle to be filled)",
+          "agent_a" : "Based on the transcript, it was mentioned that a Doodle poll was created to determine the availability for regular meetings. However, it is not explicitly stated whether the slot for regular meetings has been set. It is important to check the Doodle poll and ensure that all participants have filled it out to determine the most suitable time for regular meetings."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "M",
+          "user_q" : " Who is trying to make webster kit connection working ?",
+          "groundtruth_a" : "[PERSON5]",
+          "agent_a" : "According to the transcript, [PERSON5] is the person who mentioned that they are trying to make the Webster Kit connection work. They discuss using the Webster Kit for uploading data to either the Online Text Club or another platform, and they are exploring the possibility of using a plain Webster Kit connection for more predictability and ease of use."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "B",
+          "user_q" : " Who has the goal to compress his multiple scripts into one ?",
+          "groundtruth_a" : "[PERSON8] ",
+          "agent_a" : "According to the transcript, [PERSON10] has the goal of compressing multiple scripts into one. They mentioned that they currently have separate scripts for converting data and extracting common words, but their aim is to combine these scripts into a single one. The purpose of this consolidation is to streamline the process and make it more efficient."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "E",
+          "user_q" : " What should (PERSON1) ask to (PERSON4) ?",
+          "groundtruth_a" : "about virtual machine (docker)",
+          "agent_a" : "Based on the transcript, (PERSON1) is asked to contact (PERSON4) regarding fixing an issue related to the [unintelligible]. The exact details of what (PERSON1) should ask (PERSON4) are not explicitly mentioned in the transcript. However, it can be inferred that (PERSON1) needs to discuss the issue and seek assistance or clarification from (PERSON4) to resolve it. The specific questions or information to be communicated to (PERSON4) would depend on the nature and details of the issue at hand."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "B",
+          "user_q" : " Who was busy with exams ?",
+          "groundtruth_a" : "(PERSON10)",
+          "agent_a" : "According to the transcript, [PERSON10] mentioned being busy with exams. They apologized for their availability being limited due to their exam preparations."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "E",
+          "user_q" : " What does [PERSON8] have to do next ?",
+          "groundtruth_a" : "",
+          "agent_a" : "Based on the transcript, [PERSON8] has several tasks to work on next:\n\n1. [PERSON8] is working on speech segmentation and is planning to train and fix the empty modules to work on prefixes.\n\n2. [PERSON8] mentioned receiving files from [PERSON11] and will be downloading and processing them for further testing.\n\n3. [PERSON8] is also working on fixing the tool for English segmentation to capitalize the first letter of proper nouns. They mentioned the need to manually perform this for the Czech segmenter as well.\n\n4. [PERSON8] expressed the importance of preparing data for the ISWSLT (International Workshop on Spoken Language Translation) test. This task will require collaboration with [PERSON3] to finalize the data preparation.\n\nIn summary, [PERSON8] needs to continue working on speech segmentation, process files, fix the segmentation tool, and collaborate on data preparation for the ISWSLT test."
+        }
+      ]
+    },
+    {
+      "id" : "meeting_en_dev_007",
+      "type" : "dev",
+      "questions" : [
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "S",
+          "user_q" : " Who attended the meeting ?",
+          "groundtruth_a" : "[PERSON2], [PERSON3], [PERSON5], [PERSON1]",
+          "agent_a" : "The participants in the meeting were:\n- PERSON1\n- PERSON2\n- PERSON3\n- PERSON5"
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " What was meeting's main purpose ?",
+          "groundtruth_a" : "discuss progress and next steps for the shared task proposal",
+          "agent_a" : "The main purpose of the meeting was to discuss the progress and next steps for the shared task proposal. They also discussed the alignment tool developed by PERSON6 and the annotation work that needed to be done."
+        },
+        {
+          "id" : "1",
+          "type" : "when",
+          "loc" : "B",
+          "user_q" : " When shared task data should be ready ?",
+          "groundtruth_a" : "End of November",
+          "agent_a" : "The shared task data should be ready by the end of November."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " What is the shared task about ?",
+          "groundtruth_a" : "Summarization",
+          "agent_a" : "The shared task is focused on summarization. The participants discussed the importance of building summaries that are close to the original documents and explored evaluation metrics for measuring the quality of the summaries. They also mentioned the potential use of the alignment tool developed by PERSON6 for aligning transcripts and minutes."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " Will the alignment tool of (PERSON6) eventually used for the shared task ?",
+          "groundtruth_a" : "no",
+          "agent_a" : "The use of the alignment tool developed by PERSON6 for the shared task was discussed in the meeting, but no final decision was made. They mentioned that further investigation and discussions were needed to determine how to best utilize the alignment tool and its output for evaluation purposes."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "B",
+          "user_q" : " Who is going to contribute mostly to the choice of evaluation metrics ?",
+          "groundtruth_a" : "[PERSON1] ",
+          "agent_a" : "It was mentioned in the meeting that PERSON2 and PERSON4 have strong opinions about the choice of evaluation metrics. They expressed the need to evaluate the alignment of summaries and transcripts, but also acknowledged that further discussions and considerations were required. Ultimately, the decision on evaluation metrics will likely involve input from multiple participants, including PERSON2, PERSON4, and possibly others in the community."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "B",
+          "user_q" : " Who is the data provider for the shared task ?",
+          "groundtruth_a" : "[ORGANIZATION1]",
+          "agent_a" : "The data provider for the shared task was mentioned as [ORGANIZATION1]. They discussed the need to align the [ORGANIZATION1] data with corresponding transcripts in order to prepare the dataset for the shared task."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "M",
+          "user_q" : " Will the alignment tool of (PERSON6) eventually used by the annotators ?",
+          "groundtruth_a" : "yes",
+          "agent_a" : "The meeting discussed the possibility of using the alignment tool developed by PERSON6 for annotators' work. There was a suggestion to start the annotation work as soon as possible and to include the alignment task in the annotation process. However, it was also mentioned that further discussions and decisions were needed on how to best leverage the alignment tool and its output. The exact involvement of the alignment tool in the annotation process was not explicitly decided during the meeting."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "M",
+          "user_q" : " Which task could perhaps be transferred to (PERSON5)?",
+          "groundtruth_a" : "technical aspects related to the alignment tool",
+          "agent_a" : "During the meeting, there was a discussion about potentially transferring the task of working with annotators to PERSON5. PERSON2 expressed the need for someone who is experienced and knowledgeable about the technical aspects of the alignment tool to guide the annotators and address their questions. It was suggested that PERSON5 could potentially take on this role and work closely with PERSON2 to ensure a smooth annotation process. However, it was not confirmed whether this task would be officially transferred to PERSON5."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "E",
+          "user_q" : " What did (PERSON5) answer to this transfer request ?",
+          "groundtruth_a" : "okay (yes)",
+          "agent_a" : "PERSON5 expressed willingness to help with the task and stated that if (PERSON1) wants their assistance, they can let them know. They offered to provide support and assistance as needed, indicating a willingness to collaborate with PERSON2 and assist in the annotation process."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "E",
+          "user_q" : " What should start asap ?",
+          "groundtruth_a" : "annotation work and alignment task",
+          "agent_a" : "During the meeting, it was emphasized that the alignment task and the annotation work should start as soon as possible. There was a sense of urgency in starting the alignment task in order to align the transcripts and minutes effectively. Additionally, the annotation work was mentioned to be time-consuming, so it was important to initiate it promptly."
+        },
+        {
+          "id" : "1",
+          "type" : "when",
+          "loc" : "E",
+          "user_q" : " When [ORGANIZATION1] data should be available ?",
+          "groundtruth_a" : "By the end of the week",
+          "agent_a" : "According to the meeting, the [ORGANIZATION1] data should be available by the end of the week. There was a mention that the data had been downloaded, but it still needed to be properly aligned with the corresponding transcripts. (PERSON1) mentioned that they would work on aligning the data and preparing the necessary sample forms for [PERSON2]."
+        },
+        {
+          "id" : "1",
+          "type" : "howmany",
+          "loc" : "E",
+          "user_q" : " How much data should be annotated ?",
+          "groundtruth_a" : "130 minutes of English data and 110 minutes of Czech data",
+          "agent_a" : "The meeting did not specify the exact amount of data that needed to be annotated. However, it was mentioned that there were approximately 130 minutes of English data and 110 minutes of Czech data that required alignment and annotation. The volume of data suggests a substantial amount of work for the annotators."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "M",
+          "user_q" : " What would alignment provide exactly ?",
+          "groundtruth_a" : "align specific portions or segments of the transcripts with corresponding lines of summary",
+          "agent_a" : "The exact purpose and output of the alignment tool were not explicitly discussed during the meeting. However, the alignment task was mentioned in relation to aligning transcripts and minutes. The alignment tool could potentially provide a way to align specific portions or segments of the transcripts with corresponding lines of summary. This could result in a structured dataset where each line of summary corresponds to a specific segment of the transcript. The alignment output could be used to create a dataset with smaller pieces of text, which could be beneficial for training and evaluation purposes."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "S",
+          "user_q" : " Who is the leader of this discussion ?",
+          "groundtruth_a" : "[PERSON2] ",
+          "agent_a" : "Based on the transcript, there isn't a clear leader identified for the discussion. Both PERSON1 and PERSON2 play prominent roles in leading and contributing to the conversation, discussing various aspects of the shared task, alignment tool, annotation work, and evaluation metrics. However, it appears to be a collaborative discussion among multiple participants, including PERSON1, PERSON2, PERSON3, and PERSON5."
+        }
+      ]
+    },
+    {
+      "id" : "meeting_en_dev_008",
+      "type" : "dev",
+      "questions" : [
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "S",
+          "user_q" : " Who was there ?",
+          "groundtruth_a" : "[PERSON7], [PERSON5], [PERSON1]",
+          "agent_a" : "The participants in the meeting were:\n- PERSON7\n- PERSON5\n- PERSON3\n- PERSON1"
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " What was the objective of the meeting ?",
+          "groundtruth_a" : "discuss the deliverable documents for the publishing platform",
+          "agent_a" : "The objective of the meeting was to discuss and define the structure of the deliverable documents for the publishing platform. They also discussed the need to include information about the [ORGANIZATION7] presentation platform in the documents. Additionally, they mentioned the need to review and prepare the [ORGANIZATION4] demo paper and the ELG (European Language Grid) workshop paper."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " What is the collaborative editor used for this ?",
+          "groundtruth_a" : "Overleaf",
+          "agent_a" : "The collaborative editor used for this meeting was Overleaf. It is an online platform for writing and collaborating on LaTeX documents. Participants mentioned sharing an Overleaf link, discussing the structure of the deliverable documents, and attempting to fix compilation issues in Overleaf."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "E",
+          "user_q" : " Who developed the publishing platform ?",
+          "groundtruth_a" : "",
+          "agent_a" : "The transcript does not explicitly mention who developed the publishing platform. However, it suggests that [ORGANIZATION2] and [ORGANIZATION7] are involved in the development and presentation of the platform. The participants also discuss the need to include information about the [ORGANIZATION7] presentation platform in the deliverable documents."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "B",
+          "user_q" : " Who should be contacted, at  [ORGANIZATION7], to help with the deliverable ?",
+          "groundtruth_a" : "[PERSON2] ",
+          "agent_a" : "In the conversation, it was mentioned that [PERSON2] would be the person to contact for intermediation with [ORGANIZATION7]. It is suggested that [PERSON5] should email all relevant contacts in [ORGANIZATION7] to discuss the deliverable and obtain necessary information for inclusion in the document."
+        },
+        {
+          "id" : "1",
+          "type" : "howmany",
+          "loc" : "B",
+          "user_q" : " How many different platforms should be presented in the deliverable ?",
+          "groundtruth_a" : "deliverable should include information about three different platforms",
+          "agent_a" : "In the transcript, it is mentioned that the deliverable should include information about three different platforms. These platforms are the [ORGANIZATION2] platform, the [ORGANIZATION4] platform, and the [ORGANIZATION7] platform. The participants discussed the need to have a consistent structure across all three platforms in the deliverable."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "M",
+          "user_q" : " Which venue is targeted to publish the content of the deliverable ?",
+          "groundtruth_a" : "ELG workshop",
+          "agent_a" : "The content of the deliverable is intended to be published on the [PROJECT1] website. It is mentioned that the deliverable is for public consumption and will be publicly available on the [PROJECT1] website, which suggests that this is the targeted venue for publishing the deliverable content."
+        },
+        {
+          "id" : "1",
+          "type" : "when",
+          "loc" : "M",
+          "user_q" : " What is the deadline for submitting ELG paper ?",
+          "groundtruth_a" : "21.02.2020 (Feb 21st)",
+          "agent_a" : "The deadline for submitting the ELG (European Language Grid) paper is mentioned as next Friday, February 21st in the conversation."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "M",
+          "user_q" : " Who is in charge to contact people of  [ORGANIZATION6] and [ORGANIZATION5] to find reviewers for the deliverable ?",
+          "groundtruth_a" : "[PERSON7] ",
+          "agent_a" : "In the conversation, it is not explicitly mentioned who is in charge of contacting people from [ORGANIZATION6] and [ORGANIZATION5] to find reviewers for the deliverable. However, it can be inferred that [PERSON7] took on that responsibility as they mentioned emailing colleagues in [ORGANIZATION6] and [ORGANIZATION5] to ask them to review the deliverable."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " What is the current problem with the online document that describes the deliverable ?",
+          "groundtruth_a" : "it does not compile (on overleaf)",
+          "agent_a" : "The exact problem with the online document that describes the deliverable is not explicitly stated in the conversation. However, it is mentioned that the document does not compile properly in Overleaf. [PERSON7] is trying to fix the compilation issue and suggests temporarily using Overleaf as a plain text editor. The specific compilation error or issue is not mentioned in the transcript."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "E",
+          "user_q" : " Who left the meeting before then end ? (E)",
+          "groundtruth_a" : "(PERSON7)",
+          "agent_a" : "Based on the transcript, no participant left the meeting before the end. All participants remained until the end of the conversation."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " Was the overleaf compilation eventually solved ?",
+          "groundtruth_a" : "no",
+          "agent_a" : "In the given transcript, there is no explicit mention of whether the Overleaf compilation issue was eventually solved. The conversation indicates that [PERSON7] was attempting to fix the compilation problem, but the resolution or outcome is not discussed."
+        },
+        {
+          "id" : "1",
+          "type" : "when",
+          "loc" : "E",
+          "user_q" : " When is the next meeting ?",
+          "groundtruth_a" : "We don't know",
+          "agent_a" : "The next meeting date and time are not mentioned in the given transcript. Therefore, it is not possible to determine when the next meeting will take place based on the provided information."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "B",
+          "user_q" : " Who prepared the overleaf initially ?",
+          "groundtruth_a" : "(PERSON3)",
+          "agent_a" : "The transcript does not specify who initially prepared the Overleaf document. However, it is mentioned that [PERSON3] sent the Overleaf link, indicating that they might have been involved in its preparation."
+        }
+      ]
+    },
+    {
+      "id" : "meeting_en_dev_009",
+      "type" : "dev",
+      "questions" : [
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "S",
+          "user_q" : " Who are the participants of the meeting ?",
+          "groundtruth_a" : "[PERSON2], [PERSON6], [PERSON7]",
+          "agent_a" : "The participants of the meeting are PERSON6, PERSON7, PERSON2, PERSON4, [PERSON1], and [PERSON5]."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " Purpose of the meeting ?",
+          "groundtruth_a" : "To discuss manually annotated transcripts and the associated process",
+          "agent_a" : "The purpose of the meeting was to discuss various topics related to the data collection process, the use of alignment in evaluation, the format of the basic sample trials, and the storage of data in the GateHub repository."
+        },
+        {
+          "id" : "1",
+          "type" : "howmany",
+          "loc" : "B",
+          "user_q" : " What is the maximum duration for which online meeting software is free?",
+          "groundtruth_a" : "1h",
+          "agent_a" : "The participants mentioned that the [ORGANIZATION2] meet software is free for up to one hour, while the [ORGANIZATION2] software is free for up to forty minutes. Beyond these limits, there may be a cost associated with using the software."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " Summarise the data collection methodology of (PERSON6)",
+          "groundtruth_a" : "ASR (automatic transcription) transcripts are generated and then sent to annotators with the corresponding audio for correction. Then they write the minutes based on the corrected transcript. Everything is then sent back to PERSON6. ",
+          "agent_a" : "The data collection methodology described by PERSON6 involves several steps. Initially, automatic speech reconstruction transcripts are generated, which have low-quality accuracy. These transcripts are then sent to annotators along with the corresponding audio or video files. The annotators listen to the audio while correcting the transcripts manually. After the correction process, they write the minutes based on the corrected transcript. The manually corrected transcripts and minutes are then sent back to PERSON6. The final output includes the manually corrected ASR transcripts and the minutes created by the annotators."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " What is the difference between annotators' minutes and original minutes ?",
+          "groundtruth_a" : "Original minutes pre-exist before annotation (typically include the agenda and relevant information related to the meeting) while annotators' minutes are created from the corrected transcripts (during annotation)",
+          "agent_a" : "The annotators' minutes refer to the minutes written by the annotators based on their listening to the audio and correcting the transcript. These minutes capture the key points and discussion of the meeting. On the other hand, the original minutes are the minutes that were created by [PERSON6] or [PERSON3] before the meeting. They typically include the agenda and relevant information related to the meeting. The original minutes serve as a reference for the annotators but may not capture all the details discussed during the meeting. While the original minutes are created by the meeting organizers, the annotators' minutes are the output of the annotation process."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "M",
+          "user_q" : " Can we directly use summarisation measures for evaluating automatic minuting ?",
+          "groundtruth_a" : "no (summarisation metrics can be deceptive when evaluating automatic minuting)",
+          "agent_a" : "The participants mentioned that there are automatic summarization measures available for evaluating the quality of automatic minuting. However, they also noted that these measures may not work well for the specific task of automatic minuting. It was suggested that relying solely on automatic measures may not be sufficient and that incorporating human evaluation, such as readability and quality assessments, could be more appropriate. The participants discussed the use of a five-star rating scale and comparing the summaries to reference documents as a common practice in human evaluation for natural language generation. Ultimately, further discussion and decision-making on the evaluation measures are needed for the specific task of automatic minuting."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "E",
+          "user_q" : " What issues related to data processing were discussed in the last part of the meeting ?",
+          "groundtruth_a" : "anonymization",
+          "agent_a" : "In the last part of the meeting, the participants discussed various issues related to data processing. These included:In the last part of the meeting, the participants discussed various issues related to data processing. These included:\n"
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "",
+          "user_q" : "  Who has different opinion from [PERSON6] ? ",
+          "groundtruth_a" : "[PERSON2] ",
+          "agent_a" : "During the meeting, [PERSON2] mentioned having a different opinion from [PERSON6] on several matters. However, the specific details of their differing opinions were not mentioned in the transcript."
+        },
+        {
+          "id" : "1",
+          "type" : "when",
+          "loc" : "E",
+          "user_q" : " When should next meeting with [PERSON6] happen ? ",
+          "groundtruth_a" : "as soon as possible",
+          "agent_a" : "The participants expressed the need for another meeting with [PERSON6] to further discuss unresolved issues and make decisions. However, the specific timing of the next meeting with [PERSON6] was not determined during the conversation. It was suggested to schedule the meeting for either tomorrow morning or another convenient time."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " What is the question that is important but was however unanswered during the meeting ?",
+          "groundtruth_a" : "How are we going to use the alignment information in evaluation?",
+          "agent_a" : "The participants mentioned an important question that remained unanswered during the meeting. [PERSON6] raised the question about how to use the alignment in evaluation and what measure or metric should be used to assess the quality of the alignment. This question was acknowledged as significant, but the participants expressed that they did not have a clear answer or solution at that moment. They agreed that further discussion and consideration, possibly involving [PERSON6], would be needed to address this question and determine the appropriate approach."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " Explain why people laughed at a particular moment of the meeting ?",
+          "groundtruth_a" : "(PERSON2) thought (PERSON6) was talking to (PERSON7) whereas (PERSON6)  was talking to (PERSON2)",
+          "agent_a" : "In the transcript, there are a few instances where laughter is mentioned, but the specific reasons for the laughter are not provided. Laughter during a meeting can occur due to various reasons, such as a light-hearted comment, a moment of humor, or a shared understanding among the participants. Without more context or information, it is not possible to determine the exact reason for the laughter during the meeting."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " Explain why (PERSON7) and (PERSON2) laughed at a particular moment of the meeting ?",
+          "groundtruth_a" : "(PERSON2) thought (PERSON6) was talking to (PERSON7) whereas (PERSON6)  was talking to (PERSON2)",
+          "agent_a" : "The transcript mentions that both PERSON7 and PERSON2 laughed during the conversation. However, the specific reasons for their laughter are not provided in the transcript. Laughter in a meeting can be triggered by various factors, such as a humorous remark, a shared inside joke, or a light-hearted moment in the conversation. Without additional context, it is difficult to determine the exact reason for their laughter during the specific moment of the meeting."
+        }
+      ]
+    },
+    {
+      "id" : "meeting_en_dev_010",
+      "type" : "dev",
+      "questions" : [
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "E",
+          "user_q" : " Which paper will provide a pre-recorded presentation for IWSLT ?",
+          "groundtruth_a" : "[PROJECT5] system paper",
+          "agent_a" : "The pre-recorded presentation for IWSLT will be provided for the [PROJECT5] system paper."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "B",
+          "user_q" : " Who has not provided yet their financial information for the review ?",
+          "groundtruth_a" : "[ORGANIZATION5] ",
+          "agent_a" : "Based on the transcript, it is not mentioned which participants have not provided their financial information for the review."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "B",
+          "user_q" : " Who is speaking for [ORGANIZATION5] ?",
+          "groundtruth_a" : "[PERSON20]",
+          "agent_a" : "The transcript does not mention a specific person speaking for [ORGANIZATION5]."
+        },
+        {
+          "id" : "1",
+          "type" : "when",
+          "loc" : "B",
+          "user_q" : " What is the new date for the postponed review ?",
+          "groundtruth_a" : "not known yet (doodle is ongoing)",
+          "agent_a" : "The transcript does not mention a specific date for the postponed review."
+        },
+        {
+          "id" : "1",
+          "type" : "when",
+          "loc" : "B",
+          "user_q" : " What is the deadline to finalize the financial report ?",
+          "groundtruth_a" : "end of August",
+          "agent_a" : "The transcript does not provide information about the specific deadline to finalize the financial report."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "B",
+          "user_q" : " Who is in charge of the dissemination report ?",
+          "groundtruth_a" : "[ORGANIZATION5] ",
+          "agent_a" : "The transcript does not mention a specific person who is in charge of the dissemination report."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "E",
+          "user_q" : " What should be frozen 1 or 2 weeks before the demo ?",
+          "groundtruth_a" : "the stable components of the systems should be frozen 1-2 weeks before the demo",
+          "agent_a" : "According to the conversation, the recommendation is to freeze the fingerprints, which represent the stable configurations of the systems, one or two weeks before the demo."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "M",
+          "user_q" : " Which component is run by [ORGANIZATION2] ?",
+          "groundtruth_a" : "ASR",
+          "agent_a" : "According to the conversation, [ORGANIZATION2] is responsible for running the ASR systems for Czech, among other components."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "M",
+          "user_q" : " Which entity is running translation module ?",
+          "groundtruth_a" : "[ORGANIZATION11] ",
+          "agent_a" : "According to the conversation, the translation module is being run by [ORGANIZATION11]."
+        },
+        {
+          "id" : "1",
+          "type" : "howmany",
+          "loc" : "E",
+          "user_q" : " About project extension, how many additional months were decided ?",
+          "groundtruth_a" : "2-3 months",
+          "agent_a" : "The transcript does not mention a specific number of additional months decided for the project extension."
+        },
+        {
+          "id" : "1",
+          "type" : "when",
+          "loc" : "E",
+          "user_q" : " When should the recorded demo be provided ? ",
+          "groundtruth_a" : "recorded demo is the 17th of June",
+          "agent_a" : "According to the conversation, the deadline for providing the recorded demo is on the 17th of June."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " About dissemination, one workshop did not take place, why ?",
+          "groundtruth_a" : "because covid crisis",
+          "agent_a" : "According to the conversation, the workshop did not take place due to the COVID-19 crisis, which caused the postponement of events and restrictions on in-person gatherings."
+        },
+        {
+          "id" : "1",
+          "type" : "when",
+          "loc" : "M",
+          "user_q" : " When will be the workshop ?",
+          "groundtruth_a" : "1st of June",
+          "agent_a" : "The transcript does not provide information about the specific date for the workshop."
+        },
+        {
+          "id" : "1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " Which risk, related to the demo, was discussed ?",
+          "groundtruth_a" : "power outages at  [ORGANIZATION2]",
+          "agent_a" : "The risk discussed related to the demo was the potential for components to fail or updates to disrupt the stability of the system. It was emphasized that updates should be avoided shortly before the demo to minimize the risk of introducing problems."
+        },
+        {
+          "id" : "1",
+          "type" : "who",
+          "loc" : "B",
+          "user_q" : " Who is in charge of reviewing speech translation part in the deliverable ?",
+          "groundtruth_a" : "[PERSON3]",
+          "agent_a" : "According to the conversation, the specific reviewer for the speech translation part in the deliverable was not mentioned."
+        },
+        {
+          "id" : "1",
+          "type" : "when",
+          "loc" : "S",
+          "user_q" : " What is the current deadline for providing all the deliverables ?",
+          "groundtruth_a" : "31st of december",
+          "agent_a" : "The transcript does not provide information about the current deadline for providing all the deliverables."
+        }
+      ]
+    }
+  ]
+}
