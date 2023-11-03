@@ -1,0 +1,248 @@
+{
+  "model" : "gpt-3.5-turbo-16k",
+  "pre_system" : "The following is the transcript of a meeting with multiple participants, where each line has a timestamp (e.g. 11:58:37 AM means 11h58mn37s am), the speaker's name and their utterance.",
+  "post_system" : "\n\nAs a professional conversational assistant, you can respond to any questions about the meeting, and you can make inferences from the transcripts.",
+  "transcript" : "(PERSON8) Hi, [PERSON2].\nCan you hear me?\n(PERSON2) Yes, hi.\nHow are you [PERSON8]?\n(PERSON8) How are you doing?\nToday you came to [ORGANIZATION16]?\n(PERSON2) Hmm, mmm, mmm, today, I am in the office today.\nI'm in the office.\n(PERSON8) Okay, yeah.\n(PERSON2) I just decided to enjoy walking here.\n<laugh/>\n(PERSON8) <laugh/>\n(PERSON2) Is [PERSON3] joining us?\n(PERSON8) Yeah, I was just going to message him that <unintelligible/> are we meeting today or not?\n(PERSON2) And by the way did you do [PERSON5], the annotator?\n(PERSON8) No.\n(PERSON2) Uh, uh, [PERSON3] was supposed to do here on Friday.\nAha, I actually should ask [PERSON3] about it.\nWell, okay.\nLet's wait for him.\n(PERSON8) Should I call him, I think, is he joining?\n(PERSON2) Probably yes.\nThank you.\n(PERSON8)  He usually joins, uh-.\nAh, he is not answering the call also.\nI hope everything is fine.\n(PERSON2) Uh?\n(PERSON8) Now he is not answering to the call.\nUh, I just hope we will join soon.\nUh, he joined.\nHi [PERSON3].\n(PERSON2) Hi.\n(PERSON3) Can you hear me?\nHi.\n(PERSON8) Yeah.\n(PERSON3) Oh, okay.\nOh, I missed your calls.\n(PERSON8) Yes, I am so <unintelligible/> you are usually there on time.\nSo I was wondering you didn't came.\nIf everything is fine and you are joining or not.\n(PERSON3) Oh no, everything is fine.\nLooks like we have to like replan everything now.\n(PERSON8) Yeah.\n(PERSON3)  So the thing is that we are not going for special sessions, right?\nWhat is the last mail.\nI think [PERSON2] can translate that for us.\nWhat the person has written.\n(PERSON2) Uh-huh that Czech text you mean.\n(PERSON3) Mhm.\nYes.\n(PERSON2) Nothing serious.\nI will translate it.\nThat's actually not.\nAnd, um, thank you for the email, uh, we had a te-, tech- a technical communication meeting.\nAnd uh, the results are the following: that their are papers for for special sessions, uh, should  \nfill the same criteria as all other papers and the same timelines.\nSo if you want.\nUh, if you plan to make a special challenge session, you should, uh, just follow these rules.\nAnd if it would be a satellite event.\nUh, you should do what you want just coordinate it with something like <unintelligible/> two more  \nhigher.\nI do not know what is that.\nUn, ah, ah important bit is that uh, the uh, the articles are not in the proceedings of  \n[ORGANIZATION11].\n(PERSON8) So I think the same, uh, was written by [PERSON7] as well.\n(PERSON3) So I actually knew about this satellite event.\nSo this is usually for some full fledged workshop.\nUh, not really for shared tasks, which are very focused.\nBut, uh, like this gives us much more flexibility and freedom to choose our event, or also like  \naccept papers.\nAh, but the thing is that we have to do much like almost double work with this.\n(PERSON8) So that means it is going to be,uh, like we are going to, uh, handle the track alone, right, is \nit?\nIs it so, or did I said yes?\nDid I understood everything?\n(PERSON3) Yes, yes, everything.\nSo it is like a mini conference.\nIt is like a mini conference that you want to do.\n(PERSON8) Mhm, okay.\n(PERSON3) It is entirely independent of [ORGANIZATION11].\nSo program committee, key note speakers everything we have to choose, okay?\nAnd, uh, then, like, uh, [ORGANIZATION11], will only be there.\nThey will just promote our, uh, workshop in their webpage and nothing else.\n(PERSON8) Now, what do we do?\nDo we refine the proposal?\n(PERSON3) Yes.\n(PERSON8) Uh, for a satellite.\nThe proposal is gonna be different?\n(PERSON3) Yeah, there are.\nYeah, yeah, yeah.\nThere are many things now.\n(PERSON2) [PERSON4]-.\n(PERSON3) We have to figure it out.\n(PERSON2) [PERSON3] may ask you, do you want to do that?\n(PERSON3) Yeah, um, we don't have any option right now.\n(PERSON2) Uh, but there.\nAnother option is this next conference.\nI forgot [ORGANIZATION9] or not [ORGANIZATION9], something different.\n(PERSON3) [ORGANIZATION2].\n(PERSON2) [ORGANIZATION2].\nAt [ORGANIZATION2] we can make a shared task.\nYes?\n(PERSON3) Yes.\n(PERSON2) And why not to do a shared task at [ORGANIZATION2].\n(PERSON3) I would propose both, [PERSON2].\nWe should do both.\nLike we don't know that.\nUh if we, if we apply this will get eventually accepted.\n(PERSON2) Mhm.\n(PERSON8) Then what after?\nIf we do not get in [ORGANIZATION2] like, do we have some other option as well after [ORGANIZATION2]\n(PERSON3) We have to go on trying, we have to go for [ORGANIZATION13].\nAh, [ORGANIZATION13] spoken language technology workshop.\nBut I 'm strongly feeling from, uh, like whatever [PERSON7] said that our, uh, work is not exactly in  \nthe domain of speech, it is [PROJECT4].\nSo, uh, so, because there is nothing like no concept of speech here.\nWe are directly working on text.\nSo I'm resonating what [PERSON7] said.\nBut the thing is that the proposal for a [ORGANIZATION7] workshop this year is over.\nWhich was in September, which was too early for us.\nAnd the next proposal would come for 2022 would, which would be too late for us.\nSo, uh, [PERSON2] what I would propose is.\nLike, um, eventually we have to try and see.\nUh, like, uh, it's better that if we get either of the two, um, [ORGANIZATION2] or [ORGANIZATION11]. \nBecause both of them are well recognized in the community and our.\nLike we can motivate participants to submit.\n(PERSON2) Ah, okay.\n(PERSON3) The only the only <unintelligible/> that I'm finding now is, going with [ORGANIZATION11] is like they \nwill not allow us a space in the proceedings, which may, uh, deter some of the participants.\nLike, um, like, I am not sure that how much, how much they will be excited to publish a paper in  \n[PROJECT3] or [ORGANIZATION6] is a big no.\nSo in in [ORGANIZATION6]s people can publish any time, right?\nSo that is not a benefit to their profiles.\nSo how to motivate, uh, participants to join our shared task.\nUh, if there is no endorsement in proceedings from [ORGANIZATION11].\nSo this was the reason that I especially, uh, vouched for the special session.\nBut this time, the problem is-.\nWhat I can understand is the last time that that differ-.\nThe like, uh, time periods between proposals, submission and your, uh, final paper submission was  \nfive months.\nSo it would have enough time for our shared task.\nBut this time it is only three months, so uh.\nYeah.\nThat is one <unintelligible/> here.\n(PERSON2) Uh, may I just make here one more thing.\n(PERSON3) Yeah, yeah.\n(PERSON2) If we made this kind of workshop, the satellite.\nSo we now make a proposal for the workshop.\nWe either get it or not.\nIf we get it, we write to our participants.\nSo we make an advertisement.\nPlease take part in the shared task.\nUh, or workshop.\nSo they are supposed suppose during this three months to, uh, write a program.\nSo to make, uh, this, uh, minuting somehow.\n(PERSON3) Mhm, mhm.\n(PERSON2) And write a paper also beforehand.\nDuring these three months, there plus a separate paper on the topic.\nUh, at the same time, together with the shared task.\nYes? \nOr how is it going to work? \n(PERSON3) And so if we are going for special like-.\nUh, if you are if your proposal is accepted for a workshop, uh, then we have much more independence \nthan special session.\nSo it is entirely up to us then, wha- when to float the deadline.\nAh, how should we do the review processes?\nEverything.\nSo we are free to choose everything for this.\nBut for the special session, we have to strictly follow whatever [ORGANIZATION11] says there.\n(PERSON2) We don't do the special session anymore.\nIt's clear.\nI'm asking about the workshop.\n(PERSON8) Ah, one more thing, uh, which is coming to my mind is.\nIf we have to prepare, like, in three months, like, like all the, if you are just emailing all the  \nparticipants to take part into it.\nAnd is our data prepared for it?\nBecause all the participants are going to,uh, experiment with our data, right?\n<parallel_talk/> They are supposed to prepare <unintelligible/> </parallel_speech\n(PERSON3) Yes, I think, like, in three months our data will be prepared.\nLike the proposal submission, the last date of submission, submitting the proposal is February  \ntwenty eight.\nAnd before that, we have to get an ISC endorsement that the speech community is endorsing our  \nproposals.\nThen only we can submit, uh, the the workshop of proposal.\nAnd then they will let us know by March fifteen.\nSo by March fifteen, we know that whether we are, we are accepted in [ORGANIZATION11] workshops.\nAnd then we have to like, write our call for proposals and stuff.\nBut before submitting the proposal, uh, we have to get everything ready, like the website uh our  \nprogram committee, key notes, the program, everything.\nAnd then only, uh, we have to make a full fledged, uh, proposal for like workshop program and then  \nsubmit.\nAnd that would request time.\n(PERSON8) Mhm.\n(PERSON3) That would request time.\n(PERSON8) So so but when is, when is the date, uh, for submitting the full papers to participants.\nIf we conduct a separate workshop.\n(PERSON2) We can set it up.\n(PERSON3) That is up to us.\n(PERSON2) Up to us.\n(PERSON3) That is up to us.\n(PERSON8) Okay. Mhm.\n(PERSON2) I will be back in two minutes.\nYes, I 'm sorry, just-.\n<other_noise/>\n(PERSON3) So it should be very much double work.\n(PERSON8) Yeah.\nSo.\n(PERSON3) Like many things.\nI yeah, yeah, yeah.\nGo ahead.\n(PERSON8) So, uh, right now, is the deadline the same?\nFor for the satellite, is it ninth?\n(PERSON3) No, no, no, no, no.\nNo, for the satellite event it is February twenty eight.\nBut before that, we have to submit the proposal any time.\nOkay, like as soon as possible and get endorsement.\nAnd one of the endorsement is their. \nSo there is two <unintelligible/>.\nOne is endorsement from [ORGANIZATION1] and when [ORGANIZATION1] endorses we have to, uh, submit.\nYeah.\n(PERSON8) Yeah.\n(PERSON3) Submit and then they will say.\nSo it is a long process now.\nBut, uh, that is ok.\nBut my <unintelligible/> is, we have to now look for proceedings.\nUh, take care of all those stuff on our own.\n(PERSON8) Mhm.\n(PERSON3) I know since I am like-.\nI did this for the past year.\nIt is too too much heavy.\n(PERSON8) And so anyway, we have prepared the, uh, this document.\nWe can send it to [ORGANIZATION2], no, for the shared task. \n(PERSON3) Yeah, yeah, yeah.\nYeah, yeah.\nBy January fifteenth.\n(PERSON2) If they accept us both to [ORGANIZATION2] and uh, uh, this [ORGANIZATION11].\nWhat does your-?\n(PERSON3) [ORGANIZATION11]. \nWe do both.\n(PERSON2) What?\n(PERSON3) We do both. \n(PERSON8) <laugh/>\nYeah.\n(PERSON2) Really?\n(PERSON8) <laugh/>\n(PERSON3) Yeah, see, eventually it will be online.\nSo there is no travel.\nJust, uh, like we have to manage this submission and do our thing.\nSo, I think that better, [PERSON7] will, uh, will have a better say.\nBut if you are to ask me.\nI will do both then.\nBecause both have a very good visibility.\n(PERSON2) Yes, but ,uh, can we find so many participants.\n(PERSON3) I think so.\n(PERSON2) Yeah, okay, okay.\n(PERSON3) I think so.\nBecause, uh, since it would be entirely on to us, we don't need twelve submission.\nWe can even do with five, six submissions.\n(PERSON2) Mhm, okay.\n(PERSON3) Like, I have seen workshops in [ORGANIZATION3] having two or three submissions only.\nSo still, they are doing the proceedings and stuff.\nSo, that's not a problem.\n(PERSON2) So, [PERSON3] you are here to go to both.\nAnd to begin with, uh, workshop now.\n(PERSON3) Yes, yeah, but it, but it means double work.\nThat is what.\n(PERSON2) Yes I understand, but you are very good.\n(PERSON3) <laugh/>\n(PERSON2) <laugh/>\nMy response.\n<laugh/>\n(PERSON3) <laugh/> Oh, okay.\n(PERSON8) He just replied to that email.\n(PERSON3) I talked to him, and there was some things <unintelligible/>, <laugh/>.\nAnd he just said \"Agreed\".\n(PERSON8) Yeah.\nHe just said \"Agreed\".\nSo I thought, that is a new information.\n(PERSON2) Yes.\n(PERSON3) <laugh/>\nYeah, okay, uh.\nSo I think I need to settle down a bit.\nLast three, four days, it was too too much hectic for me.\nUh, I like had to reorient everything.\nOkay, uh, so , um, uh, like ,uh.\nThe thing is that our proposal is almost, uh, near to complete.\nBut we have to take out institutional membership.\nFor like, for um like, for all of us, to submit to the [ORGANIZATION1] workshop administration portal.\nSo for this, [PERSON2], I shou- I should contact [PERSON7] right?\n(PERSON2)  I missed the point.\nSorry.\n(PERSON3)  So we, we have to take a membership to submit the proposal.\n(PERSON2) What is membership.\n(PERSON3) Membership to [ORGANIZATION1].\n(PERSON2) I do not know, really.\n[PERSON3] don't don't ask me about these administrative plants.\nI have no idea.\n(PERSON3) Oh, okay.\n(PERSON2) So I can make the data.\nI can read the texts, uh, but I can never, uh.\nSo, or understand this organizational things.\n(PERSON3) Okay, no, I'm just asking, suppose [PERSON2] where, we have to pay some fees somewhere for our  \nworkshop.\nTo whom should I ask.\nLike, if we have to ask [PERSON7], right?\n(PERSON2) Yes, aha, [PERSON7] and he will forward you to [PERSON6].\n(PERSON3) Uh, okay, okay, I got it.\nSo we have to pay two forty Euros for institutional membership, maybe.\n(PERSON2) Yeah, yes, I think it's not a problem at all.\nBut, uh, ask ask, uh, [PERSON7].\n(PERSON3) Okay, okay.\nSo do you want to discuss about the proposal content for the workshop now or?\n(PERSON2) Um, um, no, I don't know what.\n(PERSON3) Okay, so let me prepare this as part of the content that is required.\nI have to study some, uh, other satellite events that I got accepted to an [ORGANIZATION11] last year.\nSo we have taken reorient in these things.\nAnd the, uh, the additional thing we have to have to do [ORGANIZATION4] management, uh and um,\n[ORGANIZATION4] management and especially we have to invite the program committee now.\nAnd to make a website for our propo-, uh, for our shared task.\n(PERSON2) Yes.\n(PERSON3) And what else?\nInteresting..\n(PERSON2) Yeah, it is really big work all of it.\n(PERSON3) And and, uh, another thing, uh, [PERSON2] so ,uh, can you tell us a bit more about [ORGANIZATION8]?\nAnd I was, I 'm like not aware of this journal.\n(PERSON2) Hm, I would.\nI would rather advise you to [ORGANIZATION5]it.\nI do not know, um, much more.\n(PERSON3) Oh, okay.\n(PERSON2)  I 'm not really interested in all these points.\nI have never searched of that.\nSo I probably published there something once or twice.\nBut ,uh, I didn't make a  a reche-, a research about ,um-, what is-.\n(PERSON3) So it is from [ORGANIZATION16].\nOkay.\n(PERSON2) I don't know.\nProbably not just that.\nProbably there is some points, I don't know which points.\nReally don't ask me about it.\nI don't follow.\n(PERSON3) Mhm.\n(PERSON2) Either [ORGANIZATION5]it  or ask [PERSON7].\n(PERSON3) Yeah, I got it.\nYeah, yeah, yeah.\n(PERSON2) These are things that I never understand.\n(PERSON3) Um-hum, okay.\nSo [PERSON7] is the technical editor, so it makes sense.\n(PERSON2) Yeah, probably. \nYeah, I'm very, very anti-organisational type.\n(PERSON8) Which journal?\n(PERSON3) The [ORGANIZATION8].\n(PERSON8) Oh, yeah, yeah, okay, mhm.\n(PERSON3) Have you ever read it?\n(PERSON8) Yeah, yeah, actually.\nAh, very good papers.\nThis machine translation got published in it.\nSo I have read about it.\n(PERSON3) So is this?\n(PERSON8) Yeah, yeah.\n(PERSON3) So do you think that like, uh, the participants would be interested, uh, for a publication in  \nthis, in this journal?\n(PERSON8) It depends on, depends on the participants actually.\n(PERSON3) Oh, because I have never heard of it.\nI know I have, uh, in in like in my, uh, research duration.\nI have read lots of papers.\n(PERSON3) Uh.\n(PERSON8) So I think machine translation is-.\n(PERSON3) I think it will be mostly focused on machine translation.\n(PERSON8) Yeah, yeah, yeah.\n(PERSON3) Mhm.\n(PERSON8) That is why I think I have experience with it. \n(PERSON3) But it is very old.\nIt was published in 1964.\n(PERSON8) Yes, actually the like.\nUm, like all the statistical machine translation, all the paper.\nThe core papers were actually in this.\nSo, I read lots of those papers.\n(PERSON3) Okay.\n(PERSON8) So they can be interested.\nYou know, it depends upon person to person.\nSo if he is aware of this, then I think he can be interested in.\nIf he is not aware, then probably you know.\nIt really depends.\n(PERSON3) Mhm.\nAnd is it indexed?\nOr-.\nLet me see.\n(PERSON8) I think it was indexed, uh, in like all [ORGANIZATION5] and all that.\nBut let us give it some <unintelligible/>\n(PERSON3) Okay.\n(PERSON8) I think editorial board members are really, uh, interesting to see.\n(PERSON3) [PERSON7] is there so that is good.\n(PERSON8) Yeah.\n<unintelligible/>\n<laugh/>\n(PERSON3) Mhm, so anyway.\nSo I think, uh, this would be easy for us, like if we have to do [ORGANIZATION8].\nUh um-hum.\n(PERSON8) Yeah, even if you see to the website of it.\nThey have mentioned that machine translation corpus linguist [PERSON1] morphology, syntax and  \nsemantics is what-.\n(PERSON3) But I 'm trying to look at the where it is indexed.\nBecause, you know, like, uh, to a new person, um, they would probably go for where it is indexed.\n(PERSON8) Yeah.\n(PERSON3) So in [ORGANIZATION12] it is not indexed.\n(PERSON8) It is not mentioned on the website, I wonder why.\nSo one good thing for, uh, going for <unintelligible/> and would be,  uh, if we go for  \n<unintelligible/> , uh, the proceedings would be indexed with [ORGANIZATION3] anthology.\n(PERSON8) Um, that is a good.\nThat is a good positive point.\n(PERSON2) I would say that the <unintelligible/> is better than [ORGANIZATION11] workshop.\n(PERSON3) Yeah, less work.\n(PERSON2) This is a little less work and intent and more intensive output.\n(PERSON3) Yes, I agree.\nOkay, so it is indexed in [ORGANIZATION5].\n(PERSON8) Yeah, [ORGANIZATION5] I have seen.\nThank you.\nDespite of that-.\n(PERSON3) So it is mostly on machine translation.\nIt is already, uh, written in there.\n(PERSON8) Yeah, yeah.\n(PERSON3) In their description.\nOkay.\n(PERSON8) Yeah, and it will be like <unintelligible/>.\n(PERSON3) But I don't see any kind of like proceedings in this journal.\n(PERSON8) Uh, proceedings.\n(PERSON3) Proceedings of any workshop or something, it was not there.\n(PERSON8) Yes, yes, yes, yes.\nYes, any kind-.\nIn any kind of conference or workshop, yes yes.\n(PERSON3) Mhm.\nOkay.\nBut I think if we are to do it [PERSON7] will take care of that.\n(PERSON8) Yeah. \n(PERSON3) Okay.\nSo-.\n(PERSON8) Did he mention it in some email? \nAh, did I skip something?\nDid he mention that we are going to publish in the proceedings?\n(PERSON3) Yes, he says, that either either we can go for [ORGANIZATION6] or we can go for [ORGANIZATION8].\nSo, but [ORGANIZATION6] is is no, because, yeah, it.\nIt won't motivate anyone to submit.\n(PERSON8) So I think, uh, [ORGANIZATION8] is very famous to the entire machine translation community at least.\n(PERSON3) Community, right.\n(PERSON8) Yeah, so ,uh, not aware of the other summarisation and all people.\n(PERSON3) Yeah, that's the point.\n(PERSON8) So maybe we can try it.\n(PERSON3) <unintelligible/> light of-.\nUh I, uh, uh, I kn- I know something called, uh, [PROJECT1] from [ORGANIZATION14].\nSo [PROJECT1] is something where they host.\nThey like they can host.\nUm, the proceedings of some conferences and workshops.\nBut I 'm not sure that if they will charge for that. \nAnd if they charge how much is the charge. \n(PERSON8) SRN also has some specific or those.\nOh, for that, like a what they have, the general specific journals.\n<unintelligible/>\nLike applied science and something there are after a certain there is specific something.\nSo are you talking about something specific.\n(PERSON3) Ah, no.\nI'm talking about [PROJECT1] [ORGANIZATION14], [PROJECT1] conference proceedings from [ORGANIZATION14].\n(PERSON8) Mhm.\n(PERSON3) Let me post the link.\n(PERSON8) And where is it indexed?\n(PERSON3) Yeah, <unintelligible/> they will be indexed in <unintelligible/>, [ORGANIZATION5], all the major  \nindustry services.\n(PERSON8) Mhm.\nOkay, maybe we can ask [PERSON7] I think about this.\n(PERSON3) Yeah, let me let me scan it to-.\n(PERSON8) It was [ORGANIZATION15] indexed, I guess.\n(PERSON3) [ORGANIZATION15] yes, it will definitely will be because it is from [ORGANIZATION14].\nBut I think it would also be indexed in others like <unintelligible/> or something.\n(PERSON8) Mhm.\nUm-hum like, if I would have been so, I would have actually preferred a [PROJECT2] over [PROJECT1].\n(PERSON3) [PROJECT2] over [PROJECT1].\n(PERSON8)  Because I have read actually like four papers.\nSo I have like a very good image of [PROJECT2].\n(PERSON3) Of [PROJECT2] okay, yeah, yeah, yeah.\nI understand.\n(PERSON8) The quality of paper is very good, which I've have read.\n(PERSON3) Yeah, for machine translation?\n(PERSON8) Yes.\n(PERSON3) Oh, okay, mhm.\n<other_noise/>\n(PERSON8) And [PROJECT2] is also an open index.\n(PERSON3) Open access right?\n(PERSON8) Yeah, open access.\nAnd, uh, it is uh indexed by <unintelligible/>\nDirectly <unintelligible/>\n(PERSON3) Mhm, okay, uh, you checked it?\n(PERSON8) Yes, I checked it from the website of that.\n(PERSON3)  Mhm.\nOkay.\n(PERSON8) That can be one, uh, positive point about it that it is open access.\n(PERSON3) Yes.\nOkay.\nSo another thing, another thing that we can do-.\nUm, but I have to ask like we can, uh, uh, we can also do it as part of the <unintelligible/> forum.\nI think so.\nI have to ask my other co-editors, if that is possible.\nOh, so <unintelligible/> forum has  a very big visibility among the IRN and [PROJECT4] community.\nOkay, okay.\nSo I think maybe we can defer this discussion with [PERSON7].\nYou could propose something better, um?\nAnything else we had to discuss today?\nI think it was mostly the proposal, right?\nSo that we are not doing.\nAh.\nSo we have to revise this and list down the thing that we need to do for, uh, the satellite event.\nOkay.\nThen, uh, do we meet tomorrow then?\nUh, maybe by tomorrow, I can come up with something that what are the additional works, we need to  \ndo.\n(PERSON2) Yes.\n[PERSON3] thank you very much for willing to do that.\nUh, I am sorry that I can't help you on this stage so I really, I have been-.\n(PERSON3) No, no, it's absolutely okay [PERSON2].\n(PERSON2) I will -\nI would be really glat to help in some contextual things I will really-.\nI will be glad to read the proposal and to, uh, to write some chapters to the proposal, so-.\n(PERSON3) For sure, yeah.\nSure, sure.\n(PERSON2) I think it i quite, yeah-.\n(PERSON3) [PERSON2], your your input is absolutely necessary at every point.\nAh, the only thing is.\nLike, everything is okay.\nThe only thing is, we have to do double work, ah, that is the thing.\nAh <laugh/> otherwise, everything is fine.\n(PERSON2) Yes, yes, unfortunately, it is double work.\nOkay, thank you.\n(PERSON3) Okay, okay.\nSo we meet tomorrow.\nOkay.\n(PERSON2) Good luck.\nYeah.\n(PERSON3) You too, you too.\n(PERSON2) Thank you.\n(PERSON3) Okay, okay.\nBye then.\n(PERSON2) Bye, bye.\n(PERSON3) Mhm.\n(PERSON8) Goodbye.\n",
+  "utterances" : [
+    [
+      "20231025:152044",
+      "user",
+      " Who are the participants ?",
+      0
+    ],
+    [
+      "20231025:152046",
+      "assistant",
+      "The participants mentioned in the meeting are:\n- PERSON2\n- PERSON3\n- PERSON8",
+      1
+    ],
+    [
+      "20231025:152219",
+      "user",
+      " What was the main topic of the meeting ?",
+      0
+    ],
+    [
+      "20231025:152224",
+      "assistant",
+      "The main topic of the meeting was discussing the possibility of organizing a workshop or satellite event related to shared tasks in the field of speech and text processing. They also discussed the potential venues for the event, such as [ORGANIZATION2] and [ORGANIZATION11], and the challenges they may face in terms of organizing and publishing proceedings.",
+      1
+    ],
+    [
+      "20231025:152521",
+      "user",
+      " What is the status of the submission to [ORGANIZATION11] venue ?",
+      0
+    ],
+    [
+      "20231025:152527",
+      "assistant",
+      "The exact status of the submission to [ORGANIZATION11] venue is not explicitly mentioned in the conversation transcript. However, they discuss the need to submit a proposal and obtain endorsement from [ORGANIZATION1] for the workshop. They also mention that the submission deadline for the proposal is February 28th and they expect to hear back from [ORGANIZATION11] by March 15th regarding acceptance.",
+      -1
+    ],
+    [
+      "20231025:152953",
+      "user",
+      " What are the advantages of being a satellite event instead of a special session of [ORGANIZATION11]  ?",
+      0
+    ],
+    [
+      "20231025:153007",
+      "assistant",
+      "The advantages of being a satellite event instead of a special session of [ORGANIZATION11] were not explicitly mentioned in the conversation transcript. However, based on the discussion, some potential advantages could include:\n\n1. Flexibility: Organizing a satellite event allows for more independence in terms of choosing the program, keynotes, and review processes. It provides more freedom to tailor the event to the specific needs and interests of the participants.\n\n2. Visibility: Being a satellite event of [ORGANIZATION11] could provide good visibility and recognition within the community.\n\n3. Paper Proceedings: Unlike special sessions, where the articles are not included in the proceedings of [ORGANIZATION11], a satellite event may have the potential to include the papers in the proceedings, depending on the chosen venue.\n\n4. Publication Opportunities: Organizing a satellite event may attract participants who are interested in publishing their work in the associated conference or workshop proceedings.\n\nThese are speculative advantages based on general knowledge, and the specific advantages may vary depending on the policies and guidelines of [ORGANIZATION11] and the chosen venue for the satellite event.",
+      -1
+    ],
+    [
+      "20231025:153314",
+      "user",
+      " What are the disadvantages ?",
+      0
+    ],
+    [
+      "20231025:153328",
+      "assistant",
+      "The disadvantages of being a satellite event instead of a special session of [ORGANIZATION11] were not explicitly discussed in the conversation transcript. However, here are some potential disadvantages:\n\n1. Additional Workload: Organizing a satellite event involves taking on additional responsibilities such as managing the program committee, keynote speakers, and the event website. This can lead to a heavier workload compared to a special session, which may be more streamlined and governed by the rules set by [ORGANIZATION11].\n\n2. Proceedings Endorsement: If the satellite event is not part of the official [ORGANIZATION11] proceedings, it may discourage some participants from submitting their work, as publication in [ORGANIZATION11] proceedings can be considered prestigious and beneficial for their profiles.\n\n3. Publication Venue: The chosen venue for the satellite event may have different visibility and recognition compared to [ORGANIZATION11]. This could impact the number and quality of submissions and the overall impact of the event.\n\n4. Coordination Challenges: As a satellite event, there may be a need to coordinate with [ORGANIZATION11] to ensure proper promotion of the event on their webpage. This coordination can add an extra layer of complexity to the organizing process.\n\nIt's important to note that these are speculative disadvantages",
+      1
+    ],
+    [
+      "20231025:153641",
+      "user",
+      " When is the deadline to submit a satellite workshop of [ORGANIZATION11] ?",
+      0
+    ],
+    [
+      "20231025:153647",
+      "assistant",
+      "The deadline to submit a satellite workshop proposal to [ORGANIZATION11] was not explicitly mentioned in the conversation transcript. However, they mentioned that the deadline for submitting the proposal is before February 28th. It is important to note that specific deadlines and submission dates may vary, and it is always best to refer to the official guidelines and announcements from [ORGANIZATION11] for the most accurate and up-to-date information regarding proposal submissions.",
+      1
+    ],
+    [
+      "20231025:154003",
+      "user",
+      " When is the acceptance notification for accepted workshops ?",
+      0
+    ],
+    [
+      "20231025:154009",
+      "assistant",
+      "According to the conversation transcript, they mention that they expect to hear back from [ORGANIZATION11] regarding the acceptance of their workshop proposal by March 15th. However, it's important to note that this specific date may vary, and it is best to refer to the official guidelines and announcements from [ORGANIZATION11] for the most accurate and up-to-date information on acceptance notifications for workshops.",
+      1
+    ],
+    [
+      "20231025:154240",
+      "user",
+      " Now tell me about advantages of organising an event linked to [ORGANIZATION2] ?",
+      0
+    ],
+    [
+      "20231025:154253",
+      "assistant",
+      "Based on the conversation transcript, the advantages of organizing an event linked to [ORGANIZATION2] were not explicitly discussed. However, some potential advantages could be:\n\n1. Relevance: [ORGANIZATION2] could be highly relevant to the topic or domain of the event, which can attract participants who are specifically interested in that field.\n\n2. Community: [ORGANIZATION2] may have a dedicated community and audience that aligns well with the event's focus. This can increase the visibility and participation of like-minded individuals.\n\n3. Networking Opportunities: Organizing an event linked to [ORGANIZATION2] can provide excellent networking opportunities for participants, allowing them to connect with experts, researchers, and professionals within the organization's community.\n\n4. Collaboration Potential: [ORGANIZATION2] may be open to collaborations and partnerships with event organizers, which can lead to additional support, resources, and promotion for the event.\n\n5. Reputation: [ORGANIZATION2] may have a strong reputation in the field, which can lend credibility and prestige to the event. This can attract high-quality submissions and participation.\n\nIt's important to note that these advantages are speculative and may vary depending on the specific context and the nature of the event being organized. It is recommended to",
+      -1
+    ],
+    [
+      "20231025:154712",
+      "user",
+      " What is the main disadvantage ?",
+      0
+    ],
+    [
+      "20231025:154725",
+      "assistant",
+      "The main disadvantage of organizing an event linked to [ORGANIZATION2] was not explicitly discussed in the conversation transcript. However, potential disadvantages could include:\n\n1. Limited Scope: [ORGANIZATION2] may have a specific focus or scope, which could limit the diversity of topics or participants that can be included in the event.\n\n2. Competing Events: [ORGANIZATION2] may already have other events or conferences happening around the same time, which could result in a clash of schedules and potential competition for attendees and resources.\n\n3. Funding and Support: Depending on the specific policies of [ORGANIZATION2], securing funding and support for the event may be more challenging compared to other venues or organizations.\n\n4. Accessibility: If [ORGANIZATION2] is located in a specific geographical region, it may pose accessibility challenges for participants from other parts of the world. This could impact the diversity and inclusivity of the event.\n\n5. Audience Limitations: [ORGANIZATION2] may have a specific target audience or membership base, which may limit the potential reach and diversity of the event's participants.\n\nThese are speculative disadvantages, and it's important to consider the specific context and guidelines provided by [ORGANIZATION2] when assessing the potential limitations or challenges",
+      -1
+    ],
+    [
+      "20231025:155153",
+      "user",
+      " Are there other venues to consider for our organised event ?",
+      0
+    ],
+    [
+      "20231025:155200",
+      "assistant",
+      "In the conversation transcript, [PERSON3] mentioned [ORGANIZATION11] and [ORGANIZATION2] as potential venues for the organized event. However, they also briefly discussed the possibility of considering [ORGANIZATION13], which hosts the \"spoken language technology workshop.\" Additionally, [PERSON2] mentioned the option of [ORGANIZATION9], but clarified that they were not sure if it was the correct organization. It's possible that there may be other venues or organizations worth considering for the event, but they were not specifically mentioned in the conversation. Further research and consultation with experts in the field may help identify other suitable venues for the organized event.",
+      -1
+    ],
+    [
+      "20231025:155525",
+      "user",
+      " Who is the the project manager ?",
+      0
+    ],
+    [
+      "20231025:155531",
+      "assistant",
+      "The conversation transcript does not mention a specific project manager for the organized event. However, [PERSON3] appears to take a leadership role in discussing and organizing the event, as they are actively involved in proposing ideas, discussing venue options, and considering the necessary tasks and responsibilities. It's possible that [PERSON3] could be acting as the project manager or playing a key role in the event organization.",
+      0
+    ],
+    [
+      "20231025:155844",
+      "user",
+      " What if we are accepted at both venues ([ORGANIZATION11] and [ORGANIZATION2]) ?",
+      0
+    ],
+    [
+      "20231025:155857",
+      "assistant",
+      "If the event proposal is accepted at both [ORGANIZATION11] and [ORGANIZATION2], it would present a decision-making challenge for the organizers. They would need to carefully evaluate the benefits and drawbacks of each venue and consider factors such as audience reach, visibility, publication opportunities, and alignment with the event's goals and focus.\n\nPossible options could include:\n\n1. Choosing one venue over the other: The organizers may decide to prioritize one venue based on factors such as the target audience, reputation, publication opportunities, or logistical considerations.\n\n2. Running the event at both venues: If it is feasible, the organizers could consider running the event at both [ORGANIZATION11] and [ORGANIZATION2], provided they have the resources and capacity to manage and coordinate two simultaneous events. This could potentially increase the reach and visibility of the event.\n\n3. Collaborating with one venue: The organizers could explore the possibility of collaborating with one venue while hosting the main event at the other. This could involve partnering with [ORGANIZATION11] but leveraging the resources, support, and visibility of [ORGANIZATION2], or vice versa.\n\nUltimately, the decision would depend on various factors such as the organizers' goals, resources, logistical considerations, audience preferences, and the",
+      -1
+    ],
+    [
+      "20231025:171034",
+      "user",
+      " Why is [ORGANIZATION13] workshop not the ideal venue for us ?",
+      0
+    ],
+    [
+      "20231025:171043",
+      "assistant",
+      "In the conversation transcript, [PERSON3] mentions that the [ORGANIZATION13] workshop, known as the \"spoken language technology workshop,\" may not be the ideal venue for their event. The reason mentioned is that their work is not directly related to speech processing but focuses more on text processing ([PROJECT4]). Since the [ORGANIZATION13] workshop seems to be centered around speech technology, [PERSON3] feels that their work may not align well with the workshop's domain.\n\nIt's important to note that the specific reasons why [ORGANIZATION13] is not considered the ideal venue were not explicitly discussed in the conversation transcript. The decision could also be influenced by factors such as the scope of the workshop, target audience, publication opportunities, and overall fit with the event's objectives.",
+      1
+    ],
+    [
+      "20231025:171449",
+      "user",
+      " Who had to pause the meeting for a few minutes ?",
+      0
+    ],
+    [
+      "20231025:171452",
+      "assistant",
+      "According to the conversation transcript, [PERSON2] mentions that they need to pause the meeting for a few minutes. [PERSON2] states, \"I will be back in two minutes.\" However, the reason for the pause or who initiated it is not mentioned in the conversation.",
+      1
+    ],
+    [
+      "20231025:171633",
+      "user",
+      " Why did (PERSON8) laugh at the middle of the meeting ?",
+      0
+    ],
+    [
+      "20231025:171640",
+      "assistant",
+      "In the conversation transcript, there are instances where both (PERSON8) and (PERSON2) laugh, but the specific reasons for their laughter are not mentioned. Laughter during a conversation can occur due to various reasons, such as finding something amusing, sharing a light-hearted moment, or expressing camaraderie. Without additional context or explicit information, it is difficult to determine the exact reason for (PERSON8)'s laughter in that specific moment.",
+      -1
+    ],
+    [
+      "20231025:171937",
+      "user",
+      " Is it a problem if we get just 2 or 3 submissions for the shared task ?",
+      0
+    ],
+    [
+      "20231025:171950",
+      "assistant",
+      "In the conversation transcript, it is mentioned that some workshops in [ORGANIZATION3] have had only two or three submissions and still proceeded with the proceedings. However, the specific context of the shared task being discussed is not provided, so it's challenging to assess whether having two or three submissions would be a problem.\n\nThe impact of having a low number of submissions for a shared task depends on various factors, including the goals of the task, the expected level of participation, and the desired impact of the event. Having a smaller number of submissions could indicate a lack of interest or limited participation, which may affect the overall success or credibility of the shared task.\n\nIf the organizers were expecting a higher number of submissions or aiming for a competitive and diverse participation, a low number of submissions could be seen as a limitation or a setback. However, if the goal is to foster collaboration, explore specific research directions, or facilitate in-depth analysis, a smaller number of submissions may still be valuable.\n\nUltimately, the significance of having two or three submissions for a shared task would depend on the specific goals, expectations, and context of the event.",
+      1
+    ],
+    [
+      "20231025:172305",
+      "user",
+      " According to (PERSON3) is it a problem if we get just 2 or 3 submissions for the shared task ?",
+      0
+    ],
+    [
+      "20231025:172315",
+      "assistant",
+      "In the conversation transcript, there is no direct statement from (PERSON3) regarding whether it would be a problem to receive only 2 or 3 submissions for the shared task. They mentioned that they have seen workshops in [ORGANIZATION3] with a small number of submissions but did not explicitly express their opinion on whether it would be problematic.\n\nGiven the limited information provided, it is difficult to determine (PERSON3)'s specific stance on the matter. However, it can be inferred that having a low number of submissions may not be ideal, as it could potentially impact the visibility, competitiveness, and overall impact of the shared task. Ideally, organizers would likely prefer a higher number of submissions to have a broader range of perspectives, more diverse results, and a more engaging event.\n\nTo obtain a clearer understanding of (PERSON3)'s view on the matter, it would be necessary to refer to the full conversation or seek further clarification from (PERSON3) directly.",
+      -1
+    ],
+    [
+      "20231025:172941",
+      "user",
+      " I'm [PERSON7]  and could not attend the meeting, what specific things should I know ?",
+      0
+    ],
+    [
+      "20231025:172957",
+      "assistant",
+      "Hello [PERSON7]! Based on the conversation transcript, here are some specific things that you should know about the meeting:\n\n1. Discussion about the event: The main topic of the meeting was organizing a workshop or satellite event related to shared tasks in the field of speech and text processing. They discussed the possibility of organizing it as a satellite event rather than a special session of [ORGANIZATION11].\n\n2. Potential venues: The two potential venues discussed were [ORGANIZATION2] and [ORGANIZATION11]. They also briefly mentioned [ORGANIZATION13] as an option but highlighted that their work might not align well with the domain of the workshop.\n\n3. Publication considerations: They discussed the advantages and disadvantages of publishing proceedings in different venues, such as [ORGANIZATION11], [ORGANIZATION8], and [ORGANIZATION2]. They considered factors such as visibility, indexing, and the motivations of participants for submitting papers.\n\n4. Workload and coordination: There was a discussion about the increased workload associated with organizing a satellite event and the need for careful coordination, such as managing the program committee, keynotes, and the event website.\n\n5. Deadlines and acceptance notifications: They mentioned that the deadline for submitting the proposal to [ORGANIZATION",
+      0
+    ],
+    [
+      "20231025:173050",
+      "user",
+      " I'm [PERSON7]  and could not attend the meeting, tell me what people said about me (or related to me) ?",
+      0
+    ],
+    [
+      "20231025:173102",
+      "assistant",
+      "In the conversation transcript, there are a few mentions related to you, [PERSON7]. Here is a summary of what was said:\n\n1. Your attendance: When you joined the meeting, [PERSON8] mentioned that they were just about to message you to confirm if you were joining or not.\n\n2. Email about endorsement: [PERSON8] mentioned that you had sent an email regarding endorsement, to which you had replied \"Agreed.\" This indicated that you agreed with the discussion or decision mentioned in the email.\n\n3. Technical editor: It was mentioned that you are the technical editor, indicating your role in the context of the event or project.\n\nPlease note that the conversation primarily revolved around the organization of the event, venues, proceedings, and related tasks. For more specific details or discussions directly related to you, it would be best to refer to the full conversation or have a conversation with the other participants involved.",
+      -1
+    ],
+    [
+      "20231025:174017",
+      "user",
+      " When is the next meeting planned ?",
+      0
+    ],
+    [
+      "20231025:174022",
+      "assistant",
+      "The conversation transcript does not mention the exact date or plan for the next meeting. It is not specified when the participants plan to meet again to continue their discussions. It would be best to coordinate with the other participants, such as [PERSON2], [PERSON3], or [PERSON8], to schedule the next meeting based on their availability and the progress of the event organization.",
+      1
+    ]
+  ]
+}
