@@ -7,7 +7,7 @@
 - Prototype was evaluated using UTTER (internal) meeting data and using [ELITR] (https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-4692) (public) meeting data
 - This page gathers the collection of annotated Q&A after interaction with MrMeeting
     - **ELITR English dev set (done)**
-    - ELITR English test set (todo)
+    - **ELITR English test set (done)**
     - UTTER English dataset (done, but needs anonymization)
 - Question are of 4 types: (1) **What/Why** (2) **Who** (3) **When** (4) **How many**
 - We also annotate if answer to question is in the **B**eginning (1st 1/3d), **M**iddle (2d 1/3d) or **E**nd (3d 1/3d) or on **S**everal blocks - of the meeting transcript in order to see if we can confirm results of [this paper ('lost in the middle')] (https://cs.stanford.edu/~nfliu/papers/lost-in-the-middle.arxiv2023.pdf)
@@ -38,6 +38,24 @@
 
 **ELITR English test set**
 
+[test001](ELITR-English-test/meeting_en_test2_001.md)
+
+[test002](ELITR-English-test/meeting_en_test2_002.md)
+
+[test003](ELITR-English-test/meeting_en_test2_003.md)
+
+[test004](ELITR-English-test/meeting_en_test2_004.md)
+
+[test005](ELITR-English-test/meeting_en_test2_005.md)
+
+[test006](ELITR-English-test/meeting_en_test2_006.md)
+
+[test007](ELITR-English-test/meeting_en_test2_007.md)
+
+[test008](ELITR-English-test/meeting_en_test2_008.md)
+
+
+
 **UTTER English data set**
 
 
@@ -64,7 +82,6 @@ Correct responses depending on the type of question (What, Who, When, How-Many) 
 | stats  | 64,41 %     |           | 58,82 %    |          | 61,90 %     |           | 80,00 %         |                | 63,12 %     |
 
 
-
 Correct responses depending on the position of the answer in the meeting transcript (**B**egin, **M**iddle, **E**nd, **S**everal)
 
 |        |            |        |            |        |            |        |            |        |
@@ -85,7 +102,48 @@ Correct responses depending on the position of the answer in the meeting transcr
 
 
 
+
 **ELITR English test set**
+
+Correct responses depending on the type of question (What, Who, When, How-Many) - Overall the LLM (gpt3.5-16k) answered correctly to 62,79% of questions on ELITR test2 set
+
+
+|        | WHAT(correct) | WHAT(all) | WHO(correct) | WHO(all) | WHEN(correct) | WHEN(all) | HOW MANY(correct) | HOW MANY (all) | ALL (correct) |
+|--------|---------------|-----------|--------------|----------|---------------|-----------|-------------------|----------------|---------------|
+| test001 | 4             | 5         | 4            | 4        | 0             | 0         | 2                 | 3              |               |
+| test002 | 3             | 6         | 4            | 6        | 2             | 3         | 1                 | 1              |               |
+| test003 | 2             | 5         | 3            | 6        | 1             | 4         | 0                 | 0              |               |
+| test004 | 7             | 7         | 3            | 5        | 2             | 3         | 0                 | 1              |               |
+| test005 | 3             | 10         | 2            | 3        | 3             | 3         | 0                 | 1              |               |
+| test006 | 7             | 9         | 5            | 6        | 1             | 1         | 0                 | 0              |               |
+| test007 | 4             | 6         | 6            | 10        | 0             | 4         | 0                 | 0              |               |
+| test008 | 5             | 9         | 3            | 4        | 2             | 2         | 2                 | 2              |               |
+| total  | 35            | 57        | 30           | 44       | 11            | 20        | 5                 | 8             |               |
+| stats  | 61,40 %     |           | 58,82 %    |          | 55,00 %     |           | 62,50 %         |                | 62,79 %     |
+
+
+
+
+
+Correct responses depending on the position of the answer in the meeting transcript (**B**egin, **M**iddle, **E**nd, **S**everal)
+
+|        |            |        |            |        |            |        |            |        |
+|--------|------------|--------|------------|--------|------------|--------|------------|--------|
+|        | B(correct) | B(all) | M(correct) | M(all) | E(correct) | E(all) | S(correct) | S(all) |
+| test001 | 2          | 3      | 2          | 2      | 1          | 2      | 5          | 5      |
+| test002 | 5          | 6      | 3          | 4      | 1          | 4      | 1          | 2      |
+| test003 | 2          | 3      | 2          | 4      | 0          | 4      | 2          | 4      |
+| test004 | 5          | 6      | 3          | 3      | 2          | 4      | 2          | 3      |
+| test005 | 2          | 5      | 3          | 6      | 1          | 1      | 2          | 5      |
+| test006 | 4          | 4      | 5          | 6      | 2          | 3      | 2          | 3      |
+| test007 | 6          | 13      | 1          | 2      | 1          | 1      | 2          | 4      |
+| test008 | 3          | 3      | 5          | 6      | 3          | 4      | 1          | 4      |
+| total  | 29         | 43     | 24         | 33     | 11         | 23     | 17         | 30     |
+| stats  | 67,44 %  |        | 72,72 %  |        | 47,82 %  |        | 56,67 %  |        |
+
+
+
+
 
 **UTTER English data set**
 
