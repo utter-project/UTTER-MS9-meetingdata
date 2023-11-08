@@ -41,6 +41,13 @@
 
 </aside>
 
+(5) Is the organization of this event well on track? (S)
+
+<aside>
+💡 no (no invited speakers yet, only 3 PC members, organizers are not experts)
+
+</aside>
+
 
 **WHO**
 
@@ -66,14 +73,7 @@
 </aside>
 
 
-(5) Is the organization of this event well on track? (S)
-
-<aside>
-💡 no (no invited speakers yet, only 3 PC members, organizers are not experts)
-
-</aside>
-
-(6) Which participant seems to be sick ? (S)
+(4) Which participant seems to be sick ? (S)
 
 <aside>
 💡 [PERSON2] 

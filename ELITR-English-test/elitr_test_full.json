@@ -1,0 +1,1222 @@
+{
+  "splits" : [
+    {
+      "id" : "meeting_en_test2_001",
+      "type" : "test2",
+      "questions" : [
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " What was the purpose of the meeting ? ",
+          "groundtruth_a" : "Preparation for a workshop or conference event on automatic text summarization.",
+          "agent_a" : "The purpose of the meeting was to discuss the preparation for a workshop or satellite event related to summarization. The participants discussed tasks such as setting up a website, writing the call for participation, inviting reviewers for the shared task, and inviting speakers for the event. They also discussed the challenges of organizing a workshop without having much content in the field of summarization."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "who",
+          "loc" : "S",
+          "user_q" : " Who attended it ?",
+          "groundtruth_a" : "PERSON2, PERSON4 and PERSON5",
+          "agent_a" : "The participants who attended the meeting were:\n- PERSON4\n- PERSON5\n- PERSON2"
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "who",
+          "loc" : "B",
+          "user_q" : " Who is investigating how to set the workshop website ?",
+          "groundtruth_a" : " [PERSON5]",
+          "agent_a" : "PERSON5 is investigating how to set up the workshop website. They mentioned contacting someone referred by PERSON6 and considering using GitHub as an alternative option. They also mentioned discussing it with PERSON4 and potentially asking PERSON6 for assistance."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " Is the call for participation already written ?",
+          "groundtruth_a" : "not yet",
+          "agent_a" : "Based on the conversation, it seems that the call for participation has not been written yet. PERSON5 mentioned that they would start writing the first draft of the call for participation and would share it with PERSON4 and PERSON2 for their input and comments."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " What is the problem with the scientific committee ?",
+          "groundtruth_a" : "Organizers do not have so many connections with experts in summarization",
+          "agent_a" : "The problem with the scientific committee, as mentioned in the conversation, is that none of the participants have a background in summarization. They discussed reaching out to prominent people in the summarization community to invite them to be part of the program committee, but they faced difficulties in getting responses from them. They also mentioned the challenge of finding keynote speakers who are authoritative and knowledgeable in the field of summarization."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "howmany",
+          "loc" : "B",
+          "user_q" : " How many people are currently in the PC of the workshop ?",
+          "groundtruth_a" : "It is mentioned that (PERSON4) brought 3 persons and that's all for the moment",
+          "agent_a" : "The conversation does not explicitly mention the current number of people in the program committee (PC) of the workshop. However, they discussed the goal of having more than 20 people in the program committee. They mentioned inviting reviewers for the shared task and aiming to have a good program committee to demonstrate a strong workshop. It is not clear how many people are currently in the PC, but they plan to invite more reviewers based on the number of papers they receive."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "howmany",
+          "loc" : "M",
+          "user_q" : " How many are actually needed ?",
+          "groundtruth_a" : "20 persons would be good (for the call on the website)",
+          "agent_a" : "The conversation does not specify the exact number of people needed in the program committee (PC) for the workshop. However, they mentioned aiming to have more than 20 people in the PC. This is likely to ensure a diverse and knowledgeable group of reviewers who can contribute to the workshop's scientific quality. The exact number of people needed may depend on factors such as the number of papers to be reviewed and the desired expertise in the PC."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "who",
+          "loc" : "M",
+          "user_q" : " Who could help finding more experts for the workshop ?",
+          "groundtruth_a" : "[PERSON6]",
+          "agent_a" : "In the conversation, it is suggested that [PERSON6] could potentially help in finding more experts for the workshop. They mention that [PERSON6] might know someone for the keynote and can also invite people to be part of the program committee. [PERSON4] also suggests asking [PERSON6] for suggestions as they may know someone from the summarization field. So, [PERSON6] seems to be a person who could assist in finding more experts for the workshop."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "howmany",
+          "loc" : "M",
+          "user_q" : " How many invited speakers answered positively to the invitation ?",
+          "groundtruth_a" : "0 (they all declined so far!)",
+          "agent_a" : "Based on the conversation, none of the invited speakers responded positively to the invitation for the workshop. PERSON5 mentioned reaching out to several prominent people in the summarization field, including [PERSON3], but all of them declined due to being busy. It seems that they did not receive any positive responses from the invited speakers."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " Is the organization of this event well on track?",
+          "groundtruth_a" : "no (no invited speakers yet, only 3 PC members, organizers are not experts)",
+          "agent_a" : "Based on the conversation, it appears that the organization of the event is facing some challenges and uncertainties. There are concerns about finding experts in the field of summarization, both for the program committee and as keynote speakers. Additionally, there is a lack of content and scientific input for the workshop. The participants express frustration and uncertainty about the process. However, they are still optimistic and trying to make progress by reaching out to potential participants and working on the website and call for participation. So while there are challenges, the participants are actively working towards organizing the event."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "who",
+          "loc" : "S",
+          "user_q" : " Which participant seems to be sick ?",
+          "groundtruth_a" : "[PERSON2]",
+          "agent_a" : "That's a good suggestion. As mentioned in the conversation, exploring the possibility of finding a keynote speaker at [ORGANIZATION1] or [ORGANIZATION3] could be a potential solution to address the challenge of finding experts in the summarization field. It is worth considering reaching out to individuals from these organizations who have relevant expertise and knowledge in summarization. They may be able to provide valuable insights and contribute to the success of the event as keynote speakers."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "what",
+          "loc" : "E",
+          "user_q" : " Maybe it's a good idea to try to find a keynote speaker at [ORGANIZATION1]  or [ORGANIZATION3] ? ",
+          "groundtruth_a" : "No it is not because they are part of the organization of the workshop as well !",
+          "agent_a" : "That's a good suggestion. As mentioned in the conversation, exploring the possibility of finding a keynote speaker at [ORGANIZATION1] or [ORGANIZATION3] could be a potential solution to address the challenge of finding experts in the summarization field. It is worth considering reaching out to individuals from these organizations who have relevant expertise and knowledge in summarization. They may be able to provide valuable insights and contribute to the success of the event as keynote speakers."
+        }
+      ]
+    },
+    {
+      "id" : "meeting_en_test2_002",
+      "type" : "test2",
+      "questions" : [
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "who",
+          "loc" : "S",
+          "user_q" : " Who attended this meeting ?",
+          "groundtruth_a" : "PERSON1, PERSON3, PERSON7, PERSON12, PERSON15, PERSON16, PERSON18 and PERSON24",
+          "agent_a" : "The attendees of this meeting were PERSON1, PERSON3, PERSON7, PERSON12, PERSON15, PERSON16, and PERSON24."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "who",
+          "loc" : "B",
+          "user_q" : " Who will have a specific call to discuss multi-source experiments ",
+          "groundtruth_a" : "[PERSON15], [PERSON24], [PERSON12]",
+          "agent_a" : "PERSON15 mentioned that there will be a specific call between PERSON24 and PERSON12 to discuss multi-source experiments."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "when",
+          "loc" : "B",
+          "user_q" : " When will be this call to discuss multi-source experiments? ",
+          "groundtruth_a" : "Tomorrow 3.30pm",
+          "agent_a" : "The call to discuss multi-source experiments between PERSON24 and PERSON12 is scheduled for tomorrow at 3:30 PM."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "who",
+          "loc" : "B",
+          "user_q" : " who is leaving the project?",
+          "groundtruth_a" : "[PERSON10]",
+          "agent_a" : "PERSON10 is leaving the project."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " What will be the topic of the future call between PERSON3 and PERSON6?",
+          "groundtruth_a" : "Profanity filtering integration in the system",
+          "agent_a" : "The topic of the future call between PERSON3 and PERSON6 is to discuss the integration of profanity filtering in the pipeline, particularly regarding the local copy on [PERSON6]'s laptop and any issues related to the process."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " What is PERSON1 responsible for?",
+          "groundtruth_a" : "multi-accent English ASR",
+          "agent_a" : "PERSON1's responsibilities are not explicitly mentioned in the meeting transcript."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "who",
+          "loc" : "S",
+          "user_q" : " Who is leading the discussion ?",
+          "groundtruth_a" : "[PERSON15]",
+          "agent_a" : "PERSON15 is leading the discussion in the meeting."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " What is the main problem with the system pipeline ?",
+          "groundtruth_a" : " It is complicated and it relies on a single person to start it at the moment",
+          "agent_a" : "The main problem with the system pipeline, as discussed in the meeting, is the reliance on specific individuals to start the pipeline. If these individuals are unavailable or encounter difficulties, it can result in delays and issues in running the pipeline effectively."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "who",
+          "loc" : "M",
+          "user_q" : " Who is experiencing disk space issues ?",
+          "groundtruth_a" : "[PERSON16]",
+          "agent_a" : "During the meeting, PERSON16 mentioned experiencing disk space issues on the \"levá strana\" system."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "howmany",
+          "loc" : "M",
+          "user_q" : " How much space does she have on Troja machine ?",
+          "groundtruth_a" : "50 gigabytes",
+          "agent_a" : "PERSON16 mentioned during the meeting that they have 50 gigabytes of space available on the Troja machine."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "who",
+          "loc" : "M",
+          "user_q" : " Who is interested to apply to a PhD ?",
+          "groundtruth_a" : "An indian guy known by [PERSON18]",
+          "agent_a" : "It is mentioned in the meeting that an individual known to PERSON1, who is an Indian student and almost done with their Masters, expressed interest in applying for a PhD position. However, it is not specified whether this person will indeed apply for a PhD or if there are other individuals interested in applying for a PhD position."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "when",
+          "loc" : "M",
+          "user_q" : " What is the application deadline for PhD btw ?",
+          "groundtruth_a" : "End of this year",
+          "agent_a" : "The application deadline for the PhD program is mentioned in the meeting transcript as the end of the year."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "E",
+          "user_q" : " What did (PERSON15)  say (PERSON7) will take care of ? ",
+          "groundtruth_a" : "storing and recording of the results",
+          "agent_a" : "During the meeting, PERSON15 mentioned that PERSON7 will take care of the storage and recording of results related to the evaluation of all systems and files in the test set."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "what",
+          "loc" : "E",
+          "user_q" : " What exemple was given to illustrate the fact that MT systems can utter toxic content ?",
+          "groundtruth_a" : "discussing was replaced by disgusting and the translated sentence became \"we are disgusted by the idea of including African languages in our project\" instead of \"we are discussing the idea of including African languages in our project.\"",
+          "agent_a" : "The specific example of toxic content generated by MT systems was not provided in the meeting transcript."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "what",
+          "loc" : "E",
+          "user_q" : " What is tricky with profanity filtering ?",
+          "groundtruth_a" : "you cannot simply filter out bad words (for instance replace disgusting by discussing); you need understanding the context and differentiating between offensive and non offensive use of certain words.",
+          "agent_a" : "The meeting transcript does not explicitly mention what is tricky with profanity filtering. However, it is implied that there are challenges in accurately detecting and filtering out profanity, as it requires understanding the context and differentiating between offensive language and non-offensive use of certain words."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "when",
+          "loc" : "E",
+          "user_q" : " In what month does the discussion take place?",
+          "groundtruth_a" : "December",
+          "agent_a" : "The meeting transcript does not explicitly mention the month in which the discussion takes place."
+        }
+      ]
+    },
+    {
+      "id" : "meeting_en_test2_003",
+      "type" : "test2",
+      "questions" : [
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "who",
+          "loc" : "S",
+          "user_q" : " Who was at this meeting ?",
+          "groundtruth_a" : " [PERSON4], [PERSON1], [PERSON9], [PERSON7]",
+          "agent_a" : "The participants at this meeting were PERSON1, PERSON4, PERSON7, and PERSON9. There was also mention of PERSON2 and PERSON5, although they were not present during the meeting."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " What was the main purpose of this meeting ?",
+          "groundtruth_a" : " It was mainly de-identification procedure and [PROJECT3] submission",
+          "agent_a" : "The main purpose of this meeting was to discuss the progress and next steps for a project related to de-identification and annotation of data. They also discussed the availability of participants, the need for additional help, and the timeline for completing the project tasks."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "who",
+          "loc" : "B",
+          "user_q" : " Who is moving to Canada ?",
+          "groundtruth_a" : " [PERSON7]",
+          "agent_a" : "During the meeting, it was mentioned that PERSON7 is moving to Canada."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "who",
+          "loc" : "B",
+          "user_q" : " Who needs a reference letter ?",
+          "groundtruth_a" : "(PERSON7)",
+          "agent_a" : "During the meeting, it was mentioned that PERSON7 needed a reference letter."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " Using the transcript, tell me at least three places from which the speakers speak in this meeting ",
+          "groundtruth_a" : "India, Iran, Czech Republic",
+          "agent_a" : "1. (PERSON4) Yeah, so good to- good to see you again, even, yes, you're now moving as well.\n2. (PERSON7) Yes, already in Iran, but uh- for, a month or two.\n3. (PERSON1) Yeah, hi [PERSON7]."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "when",
+          "loc" : "S",
+          "user_q" : "Using the transcript, tell me if this meeting took place before, during or after the COIVD-19 crisis",
+          "groundtruth_a" : "Probably during (one participant is wearing a face mask while he is in the corridor and they are also talking about a new variant of the virus that was out recently, also talking about vaccine not ready yet)",
+          "agent_a" : "Based on the content of the conversation, it is not explicitly mentioned in the transcript whether this meeting took place before, during, or after the COVID-19 crisis. The meeting primarily focused on project-related discussions and did not include any direct references to the COVID-19 pandemic."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " Did (PERSON4) try to dissuade (PERSON7) from working on weekends?",
+          "groundtruth_a" : "Not really",
+          "agent_a" : "Based on the transcript, there is no evidence to suggest that (PERSON4) tried to dissuade (PERSON7) from working on weekends. The conversation primarily revolved around the availability and capacity of (PERSON7) to contribute to the project given their limited time due to other commitments. The focus was on finding the best possible solution given the constraints, but there was no explicit attempt to discourage (PERSON7) from working on weekends."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "who",
+          "loc" : "M",
+          "user_q" : " Who is in charge of the web page for the scientific committee ? ",
+          "groundtruth_a" : "[PERSON9]",
+          "agent_a" : "Based on the information provided in the transcript, it is implied that [PERSON9] is in charge of the web page for the scientific committee. They mention working on the website, making changes, and sending it to [PERSON4] for review."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "who",
+          "loc" : "M",
+          "user_q" : " Who had to leave the meeting early ?",
+          "groundtruth_a" : "[PERSON4] first and then [PERSON7] as well",
+          "agent_a" : "There is no mention in the transcript of anyone leaving the meeting early. Therefore, it can be assumed that all participants stayed for the duration of the meeting."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "when",
+          "loc" : "M",
+          "user_q" : " When should the data be ready?",
+          "groundtruth_a" : "Mid February",
+          "agent_a" : "According to the transcript, the data is expected to be processed and ready by mid-February. This timeline was mentioned in relation to the completion of the [PROJECT3] proposal and the uploading of sample data to the website."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "who",
+          "loc" : "M",
+          "user_q" : " Who left first, PERSON4 or PERSON7?",
+          "groundtruth_a" : "[PERSON4]",
+          "agent_a" : "Based on the transcript, it cannot be determined who left first between PERSON4 and PERSON7. The transcript does not provide information regarding the order in which participants left the meeting."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "when",
+          "loc" : "E",
+          "user_q" : " Based on the transcript, can you guess what season this meeting takes place?",
+          "groundtruth_a" : "Winter (because on speaker said it is snowing)",
+          "agent_a" : "Based on the content of the transcript, there are no explicit mentions of the season in which this meeting took place. As a language model, I don't have access to the time and context of the meeting outside of the provided conversation. Therefore, I am unable to make an accurate guess about the specific season in which the meeting occurred."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "what",
+          "loc" : "E",
+          "user_q" : " What was the subject of the side conversation between PERSON9 and PERSON1 (that was outside the meeting topic) ?",
+          "groundtruth_a" : "about a new variant of COVID",
+          "agent_a" : "Based on the transcript, there is no explicit mention of a side conversation between PERSON9 and PERSON1 that was unrelated to the meeting topic. The conversation primarily focused on the meeting's agenda, project progress, and related discussions. Therefore, there is no specific information available about any side conversation between the two individuals during the meeting."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "who",
+          "loc" : "E",
+          "user_q" : " Try to guess who has more experience between (PERSON9) and (PERSON1)",
+          "groundtruth_a" : " (PERSON9)",
+          "agent_a" : "As an AI language model, I don't have access to personal information about individuals unless it has been shared with me in the course of our conversation. Therefore, I don't have any information about the specific experience or background of PERSON9 and PERSON1. My responses are generated based on a mixture of licensed data, data created by human trainers, and publicly available data. I should note that while I strive to provide accurate and up-to-date information, my responses may not always reflect the most current news or developments. Ultimately, the experience and expertise of individuals can vary, and it would be inappropriate for me to make assumptions or guesses about their qualifications or experience levels."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "when",
+          "loc" : "E",
+          "user_q" : " When will (PERSON9) and (PERSON1) meet again ?",
+          "groundtruth_a" : "Tomorrow",
+          "agent_a" : "According to the transcript, (PERSON9) suggested meeting again on Monday to discuss further progress. However, the exact timing and confirmation of the next meeting were not specified in the conversation. It is possible that they would schedule a meeting on Monday or another mutually agreed-upon time to continue their discussions and collaboration."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " What will be the main communication tools with the annotators ?",
+          "groundtruth_a" : "Send the files by e-mail or use a Google Docs",
+          "agent_a" : "Based on the conversation in the transcript, it was mentioned that the annotators would most likely be provided with HTML files for annotation. They would open the HTML files in [ORGANIZATION4] Word or similar word processing software and use bold formatting for named entities and italic formatting for non-named entities. The annotated files would be saved and converted back into XML format. It is not explicitly mentioned if any additional communication tools would be used, but it can be inferred that the communication and exchange of files would primarily occur through email or file sharing platforms."
+        }
+      ]
+    },
+    {
+      "id" : "meeting_en_test2_004",
+      "type" : "test2",
+      "questions" : [
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "who",
+          "loc" : "S",
+          "user_q" : " Who are the participants of the meeting ?",
+          "groundtruth_a" : "[PERSON12], [PERSON13], [PERSON7], [PERSON5], [PERSON14]",
+          "agent_a" : "The participants of the meeting are:\n1. PERSON5\n2. PERSON13\n3. PERSON12\n4. PERSON7\n5. PERSON9\n6. PERSON14"
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "who",
+          "loc" : "B",
+          "user_q" : " Who is very busy at the moment ?",
+          "groundtruth_a" : "[PERSON13]",
+          "agent_a" : "PERSON13 is the one who mentioned being very busy at the moment."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " What are the two main events discussed during this meeting ?",
+          "groundtruth_a" : "PROJECT6 and PROJECT13 events",
+          "agent_a" : "The two main events discussed during the meeting are:\n1. [PROJECT13] - The Holocaust survivor's session.\n2. [PROJECT6] - A session that has been postponed by a month."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "M",
+          "user_q" : " In which language will be PROJECT13 event ?",
+          "groundtruth_a" : " It is in Czech",
+          "agent_a" : "The PROJECT13 event will be in Czech."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "who",
+          "loc" : "B",
+          "user_q" : " Who is in charge of the demo paper submission ?",
+          "groundtruth_a" : "[PERSON12]",
+          "agent_a" : "The person in charge of the demo paper submission is the speaker, PERSON12."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "M",
+          "user_q" : " I am PERSON10 and could not attend the meeting, tell the two main things I should absolutely know",
+          "groundtruth_a" : "There was a mention of finding a replacement for your role, and [PERSON7] will be in touch with you regarding this matter.",
+          "agent_a" : "As PERSON10, there are two main things from the meeting that you should know:\n\n1. The discussion about [PROJECT13] and [PROJECT6]: [PROJECT13] is a Holocaust survivor's session, and [PROJECT6] has been postponed by a month. This means there will be some adjustments and planning needed for these events.\n\n2. The need for a replacement for [PERSON10]: There was a mention of finding a replacement for your role, and [PERSON7] will be in touch with you regarding this matter. It's important to stay informed and be prepared for any necessary actions or transitions.\n\nIf you have any further questions or need more details, feel free to ask."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "M",
+          "user_q" : " Which dataset is used by PERSON5 for building her model ?",
+          "groundtruth_a" : "common voice",
+          "agent_a" : "The specific dataset used by PERSON5 for building their model was not explicitly mentioned in the meeting transcript. However, it was discussed that PERSON5 was considering using the Common Voice dataset for training their model, as it provides additional information about gender and speakers, including non-native speakers. They also mentioned the possibility of revising the dataset choice and considering other frequently used datasets like [ORGANIZATION2] or [ORGANIZATION3]."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "who",
+          "loc" : "E",
+          "user_q" : " Who will replace PERSON10 ?",
+          "groundtruth_a" : " [PERSON4]",
+          "agent_a" : "The specific replacement for PERSON10 was not mentioned in the meeting transcript. However, there was a mention of finding a replacement for PERSON10's role, and it was suggested that [PERSON7] will be in touch with PERSON10 regarding this matter. It is recommended for PERSON10 to connect with [PERSON7] for further information about the replacement process."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "E",
+          "user_q" : " Which languages are covered by the spoken language identification system ?",
+          "groundtruth_a" : "Czech, German, English",
+          "agent_a" : "The spoken language identification system discussed in the meeting was trained on Czech, German, and English. These three languages were mentioned as the languages the system currently works with, analyzing YouTube videos and Euro parliament speeches. However, it was also mentioned that the system can be extended to include additional languages if needed."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "when",
+          "loc" : "B",
+          "user_q" : " What is the deadline for the demo paper submission ?",
+          "groundtruth_a" : "Friday 15th January (next friday)",
+          "agent_a" : "The exact deadline for the demo paper submission was not mentioned in the meeting transcript. However, it was mentioned that the deadline is next Friday. The meeting transcript does not provide the specific date, so it would be advisable to reach out to the relevant organizers or refer to any communication regarding the submission to determine the exact deadline."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "when",
+          "loc" : "E",
+          "user_q" : " When is next meeting ?",
+          "groundtruth_a" : "Thursday 14th January (next Thursday)",
+          "agent_a" : "The next meeting was not specified in the meeting transcript. However, it was mentioned in the conversation that the participants would talk again next Thursday. It's important to note that the availability and scheduling of meetings may be subject to change, so it's recommended to confirm the timing with the relevant participants or check any official communication regarding the meeting schedule."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "who",
+          "loc" : "S",
+          "user_q" : " Who is leading the conversation ?",
+          "groundtruth_a" : " [PERSON12]",
+          "agent_a" : "The person leading the conversation in the meeting is PERSON12. They are actively facilitating the discussion, providing updates, and assigning tasks to the other participants."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "howmany",
+          "loc" : "E",
+          "user_q" : " What is the current delay of the language id system ?",
+          "groundtruth_a" : "3 seconds",
+          "agent_a" : "The meeting transcript does not provide information about the current delay of the language identification system. The delay of the system may have been discussed during the meeting, but it was not mentioned in the available conversation."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " I didn't understand this 'ladder climbing' thing, can you explain me please ?",
+          "groundtruth_a" : "it refers to the continuous evaluation and improvement process of speech-to-text (STT) systems; in the meeting, suggestion was to use tables to be made as simple HTML format as easiest solution, to present the results of the ladder climbing process for easier monitoring and comparison of system performance.",
+          "agent_a" : "Certainly! The term \"ladder climbing\" refers to the continuous evaluation and improvement process of speech-to-text (STT) systems. In the context of the meeting, it was mentioned as a topic that requires attention and work.\n\nLadder climbing involves iteratively training and refining STT models over time to enhance their performance. This is achieved by conducting evaluation campaigns and benchmarking the systems against various metrics. The goal is to identify areas where the system's performance can be improved and make incremental adjustments or updates to achieve better accuracy, efficiency, or other desired qualities.\n\nThe ladder climbing process typically involves collecting data, performing evaluations, analyzing the results, and making necessary modifications to the STT models or their underlying components. It aims to gradually climb the metaphorical \"ladder\" of system performance, taking steps towards achieving higher accuracy and quality in speech recognition.\n\nIn the meeting, there was a mention of creating tables, using HTML or other formats, to present the results of the ladder climbing process for easier monitoring and comparison of system performance.\n\nI hope this explanation clarifies the concept of ladder climbing in the context of the meeting. If you have further questions, feel free to ask!"
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " Which event has been postponed ?",
+          "groundtruth_a" : " [PROJECT6]",
+          "agent_a" : "The event that has been postponed is [PROJECT6]. It was mentioned in the meeting that the event has been delayed by a month."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "when",
+          "loc" : "B",
+          "user_q" : " When will PROJECT6 actually take place ?",
+          "groundtruth_a" : "26th of February",
+          "agent_a" : "The exact date for the rescheduled [PROJECT6] event was not mentioned in the meeting transcript. It was only mentioned that the event has been postponed by a month. To determine the specific date of the rescheduled event, it would be best to refer to the latest communication or updates from the event organizers."
+        }
+      ]
+    },
+    {
+      "id" : "meeting_en_test2_005",
+      "type" : "test2",
+      "questions" : [
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "who",
+          "loc" : "S",
+          "user_q" : " Who are the participants ?",
+          "groundtruth_a" : " [PERSON2], [PERSON3], [PERSON8]",
+          "agent_a" : "The participants mentioned in the meeting are:\n- PERSON2\n- PERSON3\n- PERSON8"
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " What was the main topic of the meeting ?",
+          "groundtruth_a" : "organizing a workshop or satellite event for one of these two venues:[ORGANIZATION2] and [ORGANIZATION11]",
+          "agent_a" : "The main topic of the meeting was discussing the possibility of organizing a workshop or satellite event related to shared tasks in the field of speech and text processing. They also discussed the potential venues for the event, such as [ORGANIZATION2] and [ORGANIZATION11], and the challenges they may face in terms of organizing and publishing proceedings."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " What is the status of the submission to [ORGANIZATION11] venue ?",
+          "groundtruth_a" : "special session proposal declined but option to apply for a satellite event",
+          "agent_a" : "The exact status of the submission to [ORGANIZATION11] venue is not explicitly mentioned in the conversation transcript. However, they discuss the need to submit a proposal and obtain endorsement from [ORGANIZATION1] for the workshop. They also mention that the submission deadline for the proposal is February 28th and they expect to hear back from [ORGANIZATION11] by March 15th regarding acceptance."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " What are the advantages of being a satellite event instead of a special session of [ORGANIZATION11]  ?",
+          "groundtruth_a" : " (a) More flexibility, freedom to choose events and accept research papers; (b) Fully fledged workshop with attributes of an conference; (c) Independent of [ORGANIZATION11]; (d) Very good visibility in the community.",
+          "agent_a" : "The advantages of being a satellite event instead of a special session of [ORGANIZATION11] were not explicitly mentioned in the conversation transcript. However, based on the discussion, some potential advantages could include:\n\n1. Flexibility: Organizing a satellite event allows for more independence in terms of choosing the program, keynotes, and review processes. It provides more freedom to tailor the event to the specific needs and interests of the participants.\n\n2. Visibility: Being a satellite event of [ORGANIZATION11] could provide good visibility and recognition within the community.\n\n3. Paper Proceedings: Unlike special sessions, where the articles are not included in the proceedings of [ORGANIZATION11], a satellite event may have the potential to include the papers in the proceedings, depending on the chosen venue.\n\n4. Publication Opportunities: Organizing a satellite event may attract participants who are interested in publishing their work in the associated conference or workshop proceedings.\n\nThese are speculative advantages based on general knowledge, and the specific advantages may vary depending on the policies and guidelines of [ORGANIZATION11] and the chosen venue for the satellite event."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " What are the disadvantages ?",
+          "groundtruth_a" : "(a) Requires intensive and large amount of workload; (b) [ORGANIZATION11] doesn’t endorse the articles in the proceedings, only promotes the workshop on the website. This might discourage some participants; (c) Time period between proposal submission and final paper submission shortened from 5 to 3 months.",
+          "agent_a" : "The disadvantages of being a satellite event instead of a special session of [ORGANIZATION11] were not explicitly discussed in the conversation transcript. However, here are some potential disadvantages:\n\n1. Additional Workload: Organizing a satellite event involves taking on additional responsibilities such as managing the program committee, keynote speakers, and the event website. This can lead to a heavier workload compared to a special session, which may be more streamlined and governed by the rules set by [ORGANIZATION11].\n\n2. Proceedings Endorsement: If the satellite event is not part of the official [ORGANIZATION11] proceedings, it may discourage some participants from submitting their work, as publication in [ORGANIZATION11] proceedings can be considered prestigious and beneficial for their profiles.\n\n3. Publication Venue: The chosen venue for the satellite event may have different visibility and recognition compared to [ORGANIZATION11]. This could impact the number and quality of submissions and the overall impact of the event.\n\n4. Coordination Challenges: As a satellite event, there may be a need to coordinate with [ORGANIZATION11] to ensure proper promotion of the event on their webpage. This coordination can add an extra layer of complexity to the organizing process.\n\nIt's important to note that these are speculative disadvantages"
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "when",
+          "loc" : "M",
+          "user_q" : " When is the deadline to submit a satellite workshop of [ORGANIZATION11] ?",
+          "groundtruth_a" : "February 28, 2021",
+          "agent_a" : "The deadline to submit a satellite workshop proposal to [ORGANIZATION11] was not explicitly mentioned in the conversation transcript. However, they mentioned that the deadline for submitting the proposal is before February 28th. It is important to note that specific deadlines and submission dates may vary, and it is always best to refer to the official guidelines and announcements from [ORGANIZATION11] for the most accurate and up-to-date information regarding proposal submissions."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "when",
+          "loc" : "M",
+          "user_q" : " When is the acceptance notification for accepted workshops ?",
+          "groundtruth_a" : "March 15, 2021",
+          "agent_a" : "According to the conversation transcript, they mention that they expect to hear back from [ORGANIZATION11] regarding the acceptance of their workshop proposal by March 15th. However, it's important to note that this specific date may vary, and it is best to refer to the official guidelines and announcements from [ORGANIZATION11] for the most accurate and up-to-date information on acceptance notifications for workshops."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " Now tell me about advantages of organising an event linked to [ORGANIZATION2] ?",
+          "groundtruth_a" : "(a) Great visibility in the science community; (b) Shared task submission possible; (c) Less work and more intense output; (d) Proceedings indexed in [ORGANIZATION3] Anthology",
+          "agent_a" : "Based on the conversation transcript, the advantages of organizing an event linked to [ORGANIZATION2] were not explicitly discussed. However, some potential advantages could be:\n\n1. Relevance: [ORGANIZATION2] could be highly relevant to the topic or domain of the event, which can attract participants who are specifically interested in that field.\n\n2. Community: [ORGANIZATION2] may have a dedicated community and audience that aligns well with the event's focus. This can increase the visibility and participation of like-minded individuals.\n\n3. Networking Opportunities: Organizing an event linked to [ORGANIZATION2] can provide excellent networking opportunities for participants, allowing them to connect with experts, researchers, and professionals within the organization's community.\n\n4. Collaboration Potential: [ORGANIZATION2] may be open to collaborations and partnerships with event organizers, which can lead to additional support, resources, and promotion for the event.\n\n5. Reputation: [ORGANIZATION2] may have a strong reputation in the field, which can lend credibility and prestige to the event. This can attract high-quality submissions and participation.\n\nIt's important to note that these advantages are speculative and may vary depending on the specific context and the nature of the event being organized. It is recommended to"
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " Are there other venues to consider for our organised event ?",
+          "groundtruth_a" : "yes for instance [ORGANIZATION6] or [ORGANIZATION8] or [ORGANIZATION13)]",
+          "agent_a" : "In the conversation transcript, [PERSON3] mentioned [ORGANIZATION11] and [ORGANIZATION2] as potential venues for the organized event. However, they also briefly discussed the possibility of considering [ORGANIZATION13], which hosts the \"spoken language technology workshop.\" Additionally, [PERSON2] mentioned the option of [ORGANIZATION9], but clarified that they were not sure if it was the correct organization. It's possible that there may be other venues or organizations worth considering for the event, but they were not specifically mentioned in the conversation. Further research and consultation with experts in the field may help identify other suitable venues for the organized event."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "who",
+          "loc" : "B",
+          "user_q" : " Who is the the project manager ?",
+          "groundtruth_a" : "[PERSON7]",
+          "agent_a" : "The conversation transcript does not mention a specific project manager for the organized event. However, [PERSON3] appears to take a leadership role in discussing and organizing the event, as they are actively involved in proposing ideas, discussing venue options, and considering the necessary tasks and responsibilities. It's possible that [PERSON3] could be acting as the project manager or playing a key role in the event organization."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "what",
+          "loc" : "M",
+          "user_q" : " What if we are accepted at both venues ([ORGANIZATION11] and [ORGANIZATION2]) ?",
+          "groundtruth_a" : "We do both !",
+          "agent_a" : "If the event proposal is accepted at both [ORGANIZATION11] and [ORGANIZATION2], it would present a decision-making challenge for the organizers. They would need to carefully evaluate the benefits and drawbacks of each venue and consider factors such as audience reach, visibility, publication opportunities, and alignment with the event's goals and focus.\n\nPossible options could include:\n\n1. Choosing one venue over the other: The organizers may decide to prioritize one venue based on factors such as the target audience, reputation, publication opportunities, or logistical considerations.\n\n2. Running the event at both venues: If it is feasible, the organizers could consider running the event at both [ORGANIZATION11] and [ORGANIZATION2], provided they have the resources and capacity to manage and coordinate two simultaneous events. This could potentially increase the reach and visibility of the event.\n\n3. Collaborating with one venue: The organizers could explore the possibility of collaborating with one venue while hosting the main event at the other. This could involve partnering with [ORGANIZATION11] but leveraging the resources, support, and visibility of [ORGANIZATION2], or vice versa.\n\nUltimately, the decision would depend on various factors such as the organizers' goals, resources, logistical considerations, audience preferences, and the"
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " Why is [ORGANIZATION13] workshop not the ideal venue for us ?",
+          "groundtruth_a" : "Because we are not working directly on speech",
+          "agent_a" : "In the conversation transcript, [PERSON3] mentions that the [ORGANIZATION13] workshop, known as the \"spoken language technology workshop,\" may not be the ideal venue for their event. The reason mentioned is that their work is not directly related to speech processing but focuses more on text processing ([PROJECT4]). Since the [ORGANIZATION13] workshop seems to be centered around speech technology, [PERSON3] feels that their work may not align well with the workshop's domain.\n\nIt's important to note that the specific reasons why [ORGANIZATION13] is not considered the ideal venue were not explicitly discussed in the conversation transcript. The decision could also be influenced by factors such as the scope of the workshop, target audience, publication opportunities, and overall fit with the event's objectives."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "who",
+          "loc" : "M",
+          "user_q" : " Who had to pause the meeting for a few minutes ?",
+          "groundtruth_a" : "[PERSON2]",
+          "agent_a" : "According to the conversation transcript, [PERSON2] mentions that they need to pause the meeting for a few minutes. [PERSON2] states, \"I will be back in two minutes.\" However, the reason for the pause or who initiated it is not mentioned in the conversation."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "what",
+          "loc" : "M",
+          "user_q" : " Why did (PERSON8) laugh at the middle of the meeting ?",
+          "groundtruth_a" : "Because someone asked 'what do we do if both event submissions are accepted' and (PERSON3) said 'we do both' which means more work for everyone !",
+          "agent_a" : "In the conversation transcript, there are instances where both (PERSON8) and (PERSON2) laugh, but the specific reasons for their laughter are not mentioned. Laughter during a conversation can occur due to various reasons, such as finding something amusing, sharing a light-hearted moment, or expressing camaraderie. Without additional context or explicit information, it is difficult to determine the exact reason for (PERSON8)'s laughter in that specific moment."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "howmany",
+          "loc" : "M",
+          "user_q" : " According to (PERSON3) is it a problem if we get just 2 or 3 submissions for the shared task ?",
+          "groundtruth_a" : "not really, some workshops in the past had only two or three submissions and still proceeded with the proceedings",
+          "agent_a" : "In the conversation transcript, there is no direct statement from (PERSON3) regarding whether it would be a problem to receive only 2 or 3 submissions for the shared task. They mentioned that they have seen workshops in [ORGANIZATION3] with a small number of submissions but did not explicitly express their opinion on whether it would be problematic.\n\nGiven the limited information provided, it is difficult to determine (PERSON3)'s specific stance on the matter. However, it can be inferred that having a low number of submissions may not be ideal, as it could potentially impact the visibility, competitiveness, and overall impact of the shared task. Ideally, organizers would likely prefer a higher number of submissions to have a broader range of perspectives, more diverse results, and a more engaging event.\n\nTo obtain a clearer understanding of (PERSON3)'s view on the matter, it would be necessary to refer to the full conversation or seek further clarification from (PERSON3) directly."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " I'm [PERSON7]  and could not attend the meeting, tell me what people said about me (or related to me) ?",
+          "groundtruth_a" : "(a) [ORGANIZATION13] is not a good venue because, as you said earlier, we are not doing speech research; (b) some discussion points will have to be defered to you and meeting participants might reach out with you later about them; (c) it was mentioned that you are the technical editor of a journal",
+          "agent_a" : "In the conversation transcript, there are a few mentions related to you, [PERSON7]. Here is a summary of what was said:\n\n1. Your attendance: When you joined the meeting, [PERSON8] mentioned that they were just about to message you to confirm if you were joining or not.\n\n2. Email about endorsement: [PERSON8] mentioned that you had sent an email regarding endorsement, to which you had replied \"Agreed.\" This indicated that you agreed with the discussion or decision mentioned in the email.\n\n3. Technical editor: It was mentioned that you are the technical editor, indicating your role in the context of the event or project.\n\nPlease note that the conversation primarily revolved around the organization of the event, venues, proceedings, and related tasks. For more specific details or discussions directly related to you, it would be best to refer to the full conversation or have a conversation with the other participants involved.1. PERSON5\n2. PERSON13\n3. PERSON12\n4. PERSON7\n5. PERSON9\n6. PERSON14"
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "when",
+          "loc" : "E",
+          "user_q" : " When is the next meeting planned ?",
+          "groundtruth_a" : "not said (we don't know)",
+          "agent_a" : "The conversation transcript does not mention the exact date or plan for the next meeting. It is not specified when the participants plan to meet again to continue their discussions. It would be best to coordinate with the other participants, such as [PERSON2], [PERSON3], or [PERSON8], to schedule the next meeting based on their availability and the progress of the event organization."
+        }
+      ]
+    },
+    {
+      "id" : "meeting_en_test2_006",
+      "type" : "test2",
+      "questions" : [
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "who",
+          "loc" : "S",
+          "user_q" : " Tell me the exact list of participants to this meeting",
+          "groundtruth_a" : " [PERSON2], [PERSON7], [PERSON3], [PERSON11], [PERSON14], [PERSON8],[PERSON15], [PERSON4], [PERSON10]",
+          "agent_a" : "The exact list of participants to this meeting includes:\n- PERSON2\n- PERSON7\n- PERSON3\n- PERSON11\n- PERSON14\n- PERSON15\n- PERSON10"
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " Which event is going to be an important testbed for the project and the demo ?",
+          "groundtruth_a" : "[ORGANIZATION7] conference will be an important test event and it is necessary to get ready for it.",
+          "agent_a" : "The important testbed for the project and the demo event is the [ORGANIZATION7] conference, which is scheduled to take place in early December. It will serve as a test event for the project and will be used to prepare for the main [ORGANIZATION16] Congress."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "who",
+          "loc" : "B",
+          "user_q" : " Who is working on paraphrasing ?",
+          "groundtruth_a" : " [PERSON11]",
+          "agent_a" : "According to the transcript, PERSON11 mentioned that they have been working on paraphrasing, specifically using the rainbow model for paraphrasing for [PERSON1]."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " Which are the two main test sets ?",
+          "groundtruth_a" : "[PROJECT5] test set and [PROJECT2] test set",
+          "agent_a" : "In the transcript, there are mentions of two main test sets. One is the [PROJECT5] test set, which is being used for evaluating various systems and components within the [PROJECT5] project. The other is the [PROJECT2] test set, which is being developed and refined for the purpose of evaluation and summarization of the [PROJECT2] system."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " Which one is not finished yet ?",
+          "groundtruth_a" : "[PROJECT2]",
+          "agent_a" : "Based on the information provided in the transcript, the [PROJECT2] test set is mentioned as being not yet finished. It is still in the process of being developed and refined for evaluation purposes."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "who",
+          "loc" : "M",
+          "user_q" : " Who should [PERSON14] contact ?",
+          "groundtruth_a" : " [PERSON10]",
+          "agent_a" : "In the transcript, it is suggested that [PERSON14] should get in touch with [PERSON10]. They can provide guidance and support to [PERSON14] in order to clarify their tasks and work on the evaluation of the systems, specifically using the [PROJECT5] test set."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "M",
+          "user_q" : " Why a censorship component is needed ?",
+          "groundtruth_a" : "to avoid system utter profanity during a demo",
+          "agent_a" : "The censorship component is needed to provide a way to immediately hide or disable the output of the system if it contains inappropriate or undesirable content. It allows the system operator to review and control the outputs in real-time, ensuring that any potentially harmful or offensive content is not shown. The censorship component provides a mechanism to enforce content moderation and maintain the quality and appropriateness of the system's outputs."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "who",
+          "loc" : "M",
+          "user_q" : " Who will have a separate call about that ?",
+          "groundtruth_a" : "[PERSON12], [PERSON14], [PERSON10] and [PERSON15]",
+          "agent_a" : "In the transcript, it is suggested that [PERSON14], [PERSON10], [PERSON12], and potentially [PERSON15] should have a separate technical call to discuss and work on the design of the censorship component. This call would allow them to address specific requirements, implementation details, and any other considerations related to the censorship tool."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "M",
+          "user_q" : " What is [PERSON4] focusing on now ?",
+          "groundtruth_a" : "multi-source machine translation",
+          "agent_a" : "According to the transcript, [PERSON4] is currently focusing on developing multi-source models for machine translation. They are working on generating synthetic multi-source training sets and planning to use the [ORGANIZATION13] setup once they have access to it. The goal is to explore and experiment with multi-source models to improve the robustness and performance of machine translation systems."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "what",
+          "loc" : "M",
+          "user_q" : " Did they make progress so far ?",
+          "groundtruth_a" : "not really",
+          "agent_a" : "According to the transcript, [PERSON4] mentioned that they have made progress in reselecting some experiments on the [ORGANIZATION3] cluster. However, due to limited access to the cluster, their progress has been limited. They also received a model from [PERSON11] for training purposes but are still waiting for access to the cluster to further proceed with their work. So while some progress has been made, they are still in the process of setting up and getting started on their tasks."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "M",
+          "user_q" : " Why progresses are slow ? ",
+          "groundtruth_a" : "cluster access issues",
+          "agent_a" : "The transcript does not explicitly mention why progress has been slow for [PERSON4]. However, some possible reasons for slow progress could include limited access to necessary resources (such as the [ORGANIZATION3] cluster), technical challenges in setting up and configuring the required systems, or other commitments and responsibilities that may have affected the available time and focus for their work. It's important to note that progress can vary depending on individual circumstances and project complexities."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "what",
+          "loc" : "E",
+          "user_q" : " What is the topic of (PERSON7) at the moment ?",
+          "groundtruth_a" : "Data augmentation",
+          "agent_a" : "In the transcript, (PERSON7) mentions that they are currently working on a \"chopped data set\" for speech recognition. The goal of this work is to chop utterances into words and recreate new sentences using these words. This approach aims to improve the robustness of the [PROJECT4] system by leveraging non-native speakers and creating new sentences. The focus is on using speech data sets like [ORGANIZATION11] Common Voice and synthesizing new data sets using existing words."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "who",
+          "loc" : "S",
+          "user_q" : " Who is leading the meeting ?",
+          "groundtruth_a" : " [PERSON3]",
+          "agent_a" : "In the transcript, it appears that (PERSON3) is leading the meeting. They are initiating the discussion, providing updates, and directing the participants on various topics related to the project and ongoing tasks."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "who",
+          "loc" : "E",
+          "user_q" : " Who stayed at the end for a post-meeting conversation ?",
+          "groundtruth_a" : "[PERSON7] and [PERSON15]",
+          "agent_a" : "In the transcript, it is mentioned that (PERSON7) and (PERSON15) stayed for a post-meeting conversation after other participants had left the call."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "E",
+          "user_q" : " What was the purpose of the post-meeting conversation between [PERSON15] [PERSON7] ?",
+          "groundtruth_a" : " [PERSON15] wanted to understand better [PERSON7]'s current work and had questions about it",
+          "agent_a" : "The transcript does not provide specific details about the purpose of the post-meeting conversation between [PERSON15] and [PERSON7]. However, based on the context of their conversation, it can be inferred that they were discussing topics related to [PERSON7]'s work on the multilingual [PROJECT4] system, including data sets, evaluations, and potential collaborations."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "when",
+          "loc" : "B",
+          "user_q" : " When is [ORGANIZATION7] conference ?",
+          "groundtruth_a" : "early December",
+          "agent_a" : "According to the transcript, the [ORGANIZATION7] conference is scheduled to take place in early December."
+        }
+      ]
+    },
+    {
+      "id" : "meeting_en_test2_007",
+      "type" : "test2",
+      "questions" : [
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "who",
+          "loc" : "S",
+          "user_q" : " Tell me who attended the meeting",
+          "groundtruth_a" : " [PERSON13], [PERSON3], [PERSON16], [PERSON8], [PERSON15], [PERSON6], [PERSON7], [PERSON2]",
+          "agent_a" : "The attendees of the meeting were PERSON13, PERSON15, PERSON16, PERSON7, PERSON6, PERSON3, PERSON2, PERSON8, and PERSON1."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " Summarise what was said about system performance during latest recording session assessment",
+          "groundtruth_a" : "(a) generally substandard system performance; (b) system very slow with low recognition rate; (c) slowness can be remedied by the operator being logged into one of the machines; (d) reasons for low recognition need to be investigated further.",
+          "agent_a" : "During the meeting, there was a discussion about the poor performance of the system during the latest recording session assessment. PERSON16 mentioned that the slowness of the system was due to not being logged into one of the machines. PERSON13 requested PERSON16 to get in touch with PERSON9 to debug the issue and improve the recognition quality. It was also mentioned that the evaluation of other systems, including [PROJECT14] and [PROJECT1], is in progress and that [PERSON16] and [PERSON3] should ensure that all systems are evaluated on the different domains."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "when",
+          "loc" : "B",
+          "user_q" : " When was this latest assessment ?",
+          "groundtruth_a" : "yesterday",
+          "agent_a" : "The specific date of the latest assessment was not mentioned in the transcript of the meeting."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " How did (PERSON7) qualified the experience ?",
+          "groundtruth_a" : "It was qualified as 'disastrous'",
+          "agent_a" : "There is no specific mention of how (PERSON7) qualified the experience in the transcript."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "who",
+          "loc" : "B",
+          "user_q" : " Who is in charge of debugging the system ?",
+          "groundtruth_a" : "[PERSON16] and [PERSON3]",
+          "agent_a" : "In the meeting, PERSON16 was assigned the task of debugging the system. They were asked to get in touch with PERSON9 to address the slowness and improve the recognition quality."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "who",
+          "loc" : "B",
+          "user_q" : " Who added some files to [PROJECT12] test set ?",
+          "groundtruth_a" : "[PERSON3]",
+          "agent_a" : "[PERSON3] added some files to the [PROJECT12] test set."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "who",
+          "loc" : "B",
+          "user_q" : " I need informations about [ORGANIZATION1] server, who do I have to ask ?",
+          "groundtruth_a" : "[PERSON4]",
+          "agent_a" : "You would need to ask [PERSON4] for information about the [ORGANIZATION1] server. They were mentioned in the meeting as the person to contact regarding the server's status."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "when",
+          "loc" : "B",
+          "user_q" : " What is the deadline for [ORGANIZATION6] demo papers ?",
+          "groundtruth_a" : " [PERSON2], [PERSON7], [PERSON3], [PERSON11], [PERSON14], [PERSON8],[PERSON15], [PERSON4], [PERSON10]",
+          "agent_a" : "The deadline for the [ORGANIZATION6] demo papers was not mentioned in the transcript of the meeting."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " What about the reviews of the [PROJECT12] demo paper, are they good ?",
+          "groundtruth_a" : "no they are not good, was said that paper has little impact",
+          "agent_a" : "In the meeting, it was mentioned that [PERSON15] did not have access to the reviews of the [PROJECT12] demo paper. Therefore, it is unclear whether the reviews were positive or not."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " What is the problem with wearing face masks ?",
+          "groundtruth_a" : "it degrades speech recognition performance",
+          "agent_a" : "The problem with wearing face masks, as discussed in the meeting, is that it affects the quality of speech recognition. The masks can distort the audio and make it more difficult for the system to accurately recognize speech. This can lead to decreased performance and accuracy in transcription or translation systems."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " What could be done to increase robustness ?",
+          "groundtruth_a" : "Data augmentation: apply frequency filtering to speech training data (to simulate the impact of face masks on high frequencies)",
+          "agent_a" : "To increase the robustness of speech recognition systems in the presence of face masks, the meeting participants discussed a potential solution. They proposed using a brute force approach where the training data is processed through the speech recognition systems, mimicking the distortion caused by the masks. Additionally, a frequency filter could be applied to simulate the impact of face masks on high frequencies. By training the systems on this distorted data, it is expected to improve their performance and robustness when dealing with masked speech."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "who",
+          "loc" : "B",
+          "user_q" : " Who is writing a paper with [PERSON5] ?",
+          "groundtruth_a" : " [PERSON15]",
+          "agent_a" : "In the meeting, it was mentioned that [PERSON5] is writing a paper with [PERSON13]. They are working on a paper together, although specific details about the paper were not provided in the transcript."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "when",
+          "loc" : "B",
+          "user_q" : " What is the deadline for processing English training data ?",
+          "groundtruth_a" : "25/1",
+          "agent_a" : "The specific deadline for processing English training data was not mentioned in the meeting."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "who",
+          "loc" : "B",
+          "user_q" : " Who is in charge of writing code to test components' availability during live demos ? ",
+          "groundtruth_a" : "[PERSON7]",
+          "agent_a" : "In the meeting, it was mentioned that [PERSON7] is responsible for writing the code to test the availability of components during live demos. They are working on developing a tool that would allow the operator to define the parts of the pipeline and how they are connected, and the tool would ensure that everything is functioning as specified. Therefore, [PERSON7] is in charge of writing the code for testing component availability."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "when",
+          "loc" : "M",
+          "user_q" : " When is the conference about [PROJECT13] during which we are going to provide live subtitles ?",
+          "groundtruth_a" : "25th of January (as well)",
+          "agent_a" : "The specific date of the conference about [PROJECT13] during which live subtitles will be provided was not mentioned in the meeting transcript."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "who",
+          "loc" : "S",
+          "user_q" : " Who is leading the meeting ?  ",
+          "groundtruth_a" : " [PERSON13]",
+          "agent_a" : "PERSON13 is leading the meeting."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "M",
+          "user_q" : " What is the main problem faced by (PERSON8) at the moment?",
+          "groundtruth_a" : "not enough disk space",
+          "agent_a" : "The main problem faced by PERSON8 at the moment is optimizing the pipeline for the chopped training data. They are working on finding a way to create the recordings quickly, as the current pipeline was found to be too slow. They are also dealing with limited disk space and are exploring methods to train on more text data to improve the robustness of the language models within the system."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "who",
+          "loc" : "S",
+          "user_q" : " Who stayed till the end to discuss alignment issues in German/English ?",
+          "groundtruth_a" : " [PERSON13], [PERSON6] and [PERSON2]",
+          "agent_a" : "PERSON13 and PERSON6 stayed till the end to discuss alignment issues in German/English."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "who",
+          "loc" : "S",
+          "user_q" : " Who has a dentist appointment ?",
+          "groundtruth_a" : " [PERSON6]",
+          "agent_a" : "PERSON6 mentioned during the meeting that they have a dentist appointment in one hour."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "who",
+          "loc" : "E",
+          "user_q" : " I'm (PERSON6) and do not remember who i should contact for profanity filtering ?",
+          "groundtruth_a" : "[PERSON16] and [PERSON7]",
+          "agent_a" : "As mentioned in the meeting transcript, you should get in touch with PERSON16 and PERSON7 regarding the profanity filtering. They are the ones who can provide guidance and assistance in integrating the profanity filtering into the pipeline."
+        }
+      ]
+    },
+    {
+      "id" : "meeting_en_test2_008",
+      "type" : "test2",
+      "questions" : [
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "who",
+          "loc" : "S",
+          "user_q" : " Who was there ?",
+          "groundtruth_a" : "[PERSON10], [PERSON4], [PERSON9]",
+          "agent_a" : "During the meeting, there were multiple participants. The specific names of the participants were not mentioned in the transcript. However, it was mentioned that [PERSON4], [PERSON9], [PERSON10], and [PERSON13] were present, along with other individuals who were not mentioned by name."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "who",
+          "loc" : "B",
+          "user_q" : " Who is leaving to Canada ?",
+          "groundtruth_a" : " [PERSON7]",
+          "agent_a" : "It was mentioned in the conversation that [PERSON7] was planning to move to Canada."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "who",
+          "loc" : "S",
+          "user_q" : " Who is leading ?",
+          "groundtruth_a" : " [PERSON10]",
+          "agent_a" : "Based on the transcript, it appears that [PERSON10] is leading the meeting. They are the one who initiated the discussion, provided guidance, and gave instructions to the other participants."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " What kind of annotation  [PERSON7]  was in charge of ?",
+          "groundtruth_a" : "named-entity annotation (NE)",
+          "agent_a" : "According to the conversation, [PERSON7] was in charge of the annotation task for the named entities. They had been working on creating a list of named entities, but it was mentioned that they had stopped responding and did not complete the task. As a result, [PERSON4] mentioned that they would likely finish the annotation themselves."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " Why is named-entity annotation needed in this particular project ?",
+          "groundtruth_a" : "Because named-entity will then be replaced by place holders in order to de-identify (anonymize) the dataset",
+          "agent_a" : "Named-entity annotation is needed in this particular project to identify and mark specific named entities within the text data. By annotating named entities, such as names of people, organizations, locations, and other relevant entities, the project aims to extract and analyze information related to these entities. This annotation helps in understanding the context and relationships between different entities, enabling further analysis and processing of the text data."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "what",
+          "loc" : "S",
+          "user_q" : " Is (PERSON4) a rookie or an experienced scientist ?",
+          "groundtruth_a" : "A rookie (does not know token/type difference and also need to be re-explained things several times before they understand)",
+          "agent_a" : "Based on the conversation, it is not explicitly mentioned whether [PERSON4] is a rookie or an experienced scientist. However, [PERSON4] actively participated in the discussion, provided input, and shared their knowledge and expertise on various topics. This suggests that [PERSON4] may have some level of experience in the field, but without further information, it is difficult to determine their exact level of expertise."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "B",
+          "user_q" : " What kind of named-entities (PERSON10) think they should focus more for de-identification ?",
+          "groundtruth_a" : "persons' names",
+          "agent_a" : "Based on the conversation, [PERSON10] suggests that the focus for de-identification should primarily be on personal data, such as names of individuals, contact information, and any other identifying information. [PERSON10] also mentions that the de-identification guidelines should specify the removal or masking of personal data while preserving other information that may not be sensitive or identifying, such as names of languages or certain project names. The goal is to ensure that the data remains anonymous while still maintaining its value for analysis and research purposes."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "who",
+          "loc" : "M",
+          "user_q" : " Who is going to reinforce the de-identification team ?",
+          "groundtruth_a" : "[PERSON14]",
+          "agent_a" : "Based on the conversation, it was mentioned that [PERSON14] would be joining the de-identification team. [PERSON14] is expected to contribute by reviewing the regulations and providing expertise in determining what constitutes personal data and ensuring its proper removal or masking."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "M",
+          "user_q" : " Do minutes need to be anonymised as well ?",
+          "groundtruth_a" : "yes they should be anonymised as well",
+          "agent_a" : "Yes, according to the conversation, it was mentioned that the minutes also need to be anonymized. This means that any personal data or identifying information present in the minutes should be removed or masked to ensure the privacy and anonymity of the individuals involved. Anonymizing the minutes helps protect the privacy of the participants and ensures compliance with data protection regulations."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "M",
+          "user_q" : " What is the purpose of the new consent form ?",
+          "groundtruth_a" : "getting the permission to publish the data in the the de-identified form",
+          "agent_a" : "The purpose of the new consent form, as discussed in the conversation, is to obtain permission from the participants to publish the data in an anonymous or de-identified form. This consent form seeks explicit consent from the participants for the publication of the data after removing any personal identifiers, thereby ensuring compliance with data protection regulations and ethical guidelines."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "howmany",
+          "loc" : "M",
+          "user_q" : " How many of the participants signed the initial consent form so far ?",
+          "groundtruth_a" : "approx. 30%",
+          "agent_a" : "According to the conversation, it was mentioned that only about 30% of the participants have signed the initial consent form so far. This suggests that there is still a significant number of participants who have not provided their consent for the project."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "what",
+          "loc" : "M",
+          "user_q" : " What should be provided to the participants in addition to the consent form, for completeness ?",
+          "groundtruth_a" : "access to the full meeting repo so that they can browse the meetings they participated to and tell us if they want some data to be removed or further de-identified",
+          "agent_a" : "In addition to the consent form, it was suggested in the conversation that participants should be provided with samples of the de-identified data. These samples would allow the participants to browse and verify that their data has been appropriately anonymized while still retaining its value for analysis and research purposes. Providing such samples would give participants confidence in the de-identification process and demonstrate transparency in handling their data."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "howmany",
+          "loc" : "E",
+          "user_q" : " What is the targeted number of persons for the scientific committee ?",
+          "groundtruth_a" : "approx. 15",
+          "agent_a" : "According to the discussion, the targeted number of persons for the scientific committee is approximately 15."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "what",
+          "loc" : "E",
+          "user_q" : " Why does (PERSON4) ask (PERSON10) to send a message to the Russians people for the scientific committee ?",
+          "groundtruth_a" : "because (PERSON10) is more senior and more internationally recognized so better chance to get a positive answer",
+          "agent_a" : "(Person4) mentioned that it would be better for (PERSON10) to send the message to the Russian participants for the scientific committee because (PERSON10) has a better understanding of the Russian language and can communicate more effectively with them. It was suggested that this would facilitate better communication and ensure that the message is properly conveyed."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "when",
+          "loc" : "E",
+          "user_q" : " When should de-identification be complete ?",
+          "groundtruth_a" : "end of February",
+          "agent_a" : "Based on the discussion, the de-identification process should be completed by the end of February. This timeline was mentioned in relation to the de-identification procedure and the need to send the consent forms to the participants in the first week of March."
+        },
+        {
+          "id" : "1",
+          "correct" : "1",
+          "type" : "when",
+          "loc" : "E",
+          "user_q" : " When should the full dataset be ready ?",
+          "groundtruth_a" : " end of March",
+          "agent_a" : "According to the conversation, the aim is to have the full dataset ready by the end of March. This timeline was mentioned in relation to the de-identification process and the consent forms."
+        },
+        {
+          "id" : "1",
+          "correct" : "-1",
+          "type" : "what",
+          "loc" : "M",
+          "user_q" : " What would be the exact wording, proposed by (PERSON10) that would accompany the request for consent ? ",
+          "groundtruth_a" : "\"Based on our records you were a participant of this and this meeting. Maybe you were also present to other meeting and you were accidentally not listed. So feel free to browse any meetings you like.\"",
+          "agent_a" : "I'm sorry, but the exact wording proposed by [PERSON10] for the request for consent was not specified in the transcript."
+        }
+      ]
+    }
+  ]
+}

@@ -19,7 +19,7 @@
 
 </aside>
 
-(2) Using the transcript, tell me at least three places from which the speakers speak in this meeting  (B)
+(2) Using the transcript, tell me at least three places from which the speakers speak in this meeting  (S)
 
 <aside>
 💡 India, Iran, Czech Republic
@@ -67,7 +67,14 @@
 
 </aside>
 
-(3) Who is in charge of the web page for the scientific committee ? (M)
+(3)  Who needs a reference letter ? (B)
+
+<aside>
+💡 [PERSON9]
+
+</aside>
+
+(4) Who is in charge of the web page for the scientific committee ? (M)
 
 <aside>
 💡 [PERSON9]
@@ -75,21 +82,21 @@
 </aside>
 
 
-(4) Who had to leave the meeting early ? (M)
+(5) Who had to leave the meeting early ? (M)
 
 <aside>
 💡 [PERSON4] first and then [PERSON7] as well
 
 </aside>
 
-(5) Who left first, PERSON4 or PERSON7 ? (M)
+(6) Who left first, PERSON4 or PERSON7 ? (M)
 
 <aside>
 💡 [PERSON4] 
 
 </aside>
 
-(6)Try to guess who has more experience between (PERSON9) and (PERSON1) (E)
+(7)Try to guess who has more experience between (PERSON9) and (PERSON1) (E)
 
 <aside>
 💡 (PERSON9)
@@ -139,14 +146,14 @@
 **STATS**
 
 - WHAT: 2/5 correct
-- WHO: 3/6 correct
+- WHO: 4/7 correct
 - WHEN: 1/4 correct
 - HOW MANY: 0/0 correct
 
-- B: 2/3 correct
+- B: 3/3 correct
 - M: 2/4 correct
 - E: 0/4 correct
-- S: 2/4 correct
+- S: 2/5 correct
 
 **REMARKS**
 
