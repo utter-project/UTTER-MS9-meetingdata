@@ -11,7 +11,7 @@
     - UTTER English dataset (done, but needs anonymization)
 - Question are of 4 types: (1) **What/Why** (2) **Who** (3) **When** (4) **How many**
 - We also annotate if answer to question is in the **B**eginning (1st 1/3d), **M**iddle (2d 1/3d) or **E**nd (3d 1/3d) or on **S**everal blocks - of the meeting transcript in order to see if we can confirm results of [this paper ('lost in the middle')] (https://cs.stanford.edu/~nfliu/papers/lost-in-the-middle.arxiv2023.pdf)
-- **You will need to unzip and untar the tar.gz files to retrieve the structure** (we provide .tar.gz files instead of raw json and text files in order to avoid data contamination of LLMs trained on web scrapped data)
+- **You will need to unzip (password protected - use 'utter' as a password) and untar the tar.gz files to retrieve the structure** (we provide .tar.gz files instead of raw json and text files in order to avoid data contamination of LLMs trained on web scrapped data)
 - 
 
 
