@@ -11,52 +11,8 @@
     - UTTER English dataset (done, but needs anonymization)
 - Question are of 4 types: (1) **What/Why** (2) **Who** (3) **When** (4) **How many**
 - We also annotate if answer to question is in the **B**eginning (1st 1/3d), **M**iddle (2d 1/3d) or **E**nd (3d 1/3d) or on **S**everal blocks - of the meeting transcript in order to see if we can confirm results of [this paper ('lost in the middle')] (https://cs.stanford.edu/~nfliu/papers/lost-in-the-middle.arxiv2023.pdf)
-
-# Structure
-
-**ELITR English dev set**
-
-[dev001](ELITR-English-dev/meeting_en_dev_001.md)
-
-[dev002](ELITR-English-dev/meeting_en_dev_002.md)
-
-[dev003](ELITR-English-dev/meeting_en_dev_003.md)
-
-[dev004](ELITR-English-dev/meeting_en_dev_004.md)
-
-[dev005](ELITR-English-dev/meeting_en_dev_005.md)
-
-[dev006](ELITR-English-dev/meeting_en_dev_006.md)
-
-[dev007](ELITR-English-dev/meeting_en_dev_007.md)
-
-[dev008](ELITR-English-dev/meeting_en_dev_008.md)
-
-[dev009](ELITR-English-dev/meeting_en_dev_009.md)
-
-[dev010](ELITR-English-dev/meeting_en_dev_010.md)
-
-**ELITR English test set**
-
-[test001](ELITR-English-test/meeting_en_test2_001.md)
-
-[test002](ELITR-English-test/meeting_en_test2_002.md)
-
-[test003](ELITR-English-test/meeting_en_test2_003.md)
-
-[test004](ELITR-English-test/meeting_en_test2_004.md)
-
-[test005](ELITR-English-test/meeting_en_test2_005.md)
-
-[test006](ELITR-English-test/meeting_en_test2_006.md)
-
-[test007](ELITR-English-test/meeting_en_test2_007.md)
-
-[test008](ELITR-English-test/meeting_en_test2_008.md)
-
-
-
-**UTTER English data set**
+- You will need to unzip and untar the tar.gz files to retrieve the structure (we provide .tar.gz files instead of raw json and text files in order to avoid data contamination of LLMs trained on web scrapped data)
+- 
 
 
 # Evaluation Results
