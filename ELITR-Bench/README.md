@@ -1,6 +1,8 @@
-### File description
+### ELITR-Bench description
 
-You will need to unzip (password protected - use 'utter' as a password) the files data.zip and generated-responses.zip first, to retrieve the structure (we provide .zip files instead of raw json and text files in order to avoid data contamination of LLMs trained on web scrapped data) - type unzip data.zip and unzip generated-responses.zip 
+Original meeting data from ELITR is available [HERE] (https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-4692) 
+
+You will need to unzip (password protected - use '_utter_' as a password) the files data.zip and generated-responses.zip first, to retrieve the structure (we provide .zip files instead of raw json and text files in order to avoid data contamination of LLMs trained on web scrapped data) - type "unzip data.zip" and "unzip generated-responses.zip"
 
 After these two unzip commands, this directory contains two folders: `data` and `generated-responses`. The former contains the ELITR-Bench data files with the crafted questions, ground-truth answers and metadata. The latter contains the responses generated on ELITR-Bench with their evaluation. All files are provided in JSON format.
 
