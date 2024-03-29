@@ -1,6 +1,6 @@
 ### ELITR-Bench description
 
-Original meeting data from ELITR is available [HERE] (https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-4692) 
+Original meeting data from ELITR is available here (https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-4692) 
 
 You will need to unzip (password protected - use '_utter_' as a password) the files data.zip and generated-responses.zip first, to retrieve the structure (we provide .zip files instead of raw json and text files in order to avoid data contamination of LLMs trained on web scrapped data) - type "unzip data.zip" and "unzip generated-responses.zip"
 
