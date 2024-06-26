@@ -1,5 +1,8 @@
 # UTTER - MS8 (evaluation of MrMeeting) and MS9 (1st release of meeting Data) - June-Dec 2023 
 
+In this repository you can find the evaluation of MrMeeting (MS8 - June-Dec 2023).
+**The ELITR-Bench dataset was moved to a dedicated repository:** https://github.com/utter-project/ELITR-Bench
+ 
 # Context
 
 - We developed a meeting assistant prototype: MrMeeting (answers to questions related to a meeting; meeting transcripts are put in the LLM prompt)
@@ -11,9 +14,6 @@
     - UTTER English dataset (done, but needs anonymization)
 - Question are of 4 types: (1) **What/Why** (2) **Who** (3) **When** (4) **How many**
 - We also annotate if answer to question is in the **B**eginning (1st 1/3d), **M**iddle (2d 1/3d) or **E**nd (3d 1/3d) or on **S**everal blocks - of the meeting transcript in order to see if we can confirm results of [this paper ('lost in the middle')] (https://cs.stanford.edu/~nfliu/papers/lost-in-the-middle.arxiv2023.pdf)
-- **You will need to unzip (password protected - use 'utter' as a password) and untar the tar.gz files to retrieve the structure** (we provide .tar.gz files instead of raw json and text files in order to avoid data contamination of LLMs trained on web scrapped data)
-- 
-
 
 # Evaluation Results
 
